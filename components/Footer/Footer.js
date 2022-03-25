@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   main: [
-    { name: 'Privacy Polity', href: '/privacy-polity' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
     { name: 'Terms and Conditions', href: '/terms' },
   ],
   social: [

@@ -84,7 +84,7 @@ export default function Terms() {
             </svg>
           </div>
         </div>
-        <div className="relative px-4 sm:px-6 lg:px-8">
+        <div className="wrapper__info relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
             <h1>
               <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">
