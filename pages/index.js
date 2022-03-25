@@ -14,24 +14,14 @@
   }
   ```
 */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { ChevronRightIcon } from '@heroicons/react/solid'
-import Header from '../components/Header/header'
 
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
+import { ChevronRightIcon } from '@heroicons/react/solid'
+
+
 
 export default function Example() {
   return (
     <div className="relative overflow-hidden">
-      <Header />
-
       <main>
         <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
           <div className="mx-auto max-w-7xl lg:px-8">

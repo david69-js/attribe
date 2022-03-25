@@ -15,27 +15,28 @@
   ```
 */
 import { Fragment } from 'react'
+import Link from 'next/link';
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
 const navigation = [
-  { name: 'Privacy Polity', href: '#' },
-  { name: 'Terms and Conditions', href: '#' },
+  { name: 'Privacy Polity', href: '/privacy-polity' },
+  { name: 'Terms and Conditions', href: '/terms' },
 ]
 
 export default function Header() {
   return (
     <div>
        <Popover as="header" className="relative">
-        <div className="bg-gray-900 pt-6">
+        <div className="bg-gray-900 py-6">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
           >
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <a href="/">
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-10"
@@ -52,7 +53,7 @@ export default function Header() {
               </div>
               <div className="hidden space-x-8 md:flex md:ml-10">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-base font-medium text-white hover:text-gray-300">
+                  <a key={item.name} href={item.href} className="text-base font-medium text-white hover:text-gray-300" style={{color: 'white'}}>
                     {item.name}
                   </a>
                 ))}
