@@ -91,7 +91,7 @@ export default function Privacy() {
               Introducing
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              JavaScript for Beginners
+              Privacy Polity
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-500 leading-8">
