@@ -1,3 +1,8 @@
 .header__container{
     background-color: #277ECA;
 }
+
+
+.logo__text{
+    font-family: OpenSans, 'Graphik-SemiBold';
+}
