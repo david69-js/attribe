@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <div>
        <Popover as="header" className="relative">
-        <div className="bg-gray-900 py-6">
+        <div className="header__container py-6">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
