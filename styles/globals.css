@@ -5,6 +5,7 @@
 
 @import './Components/hero.css';
 @import './Components/header.css';
+@import './Components/pages.css';
 
 
 @font-face {
@@ -37,7 +38,9 @@ a {
 
 .wrapper__info
 {
-  max-width: 1360px;
+  max-width: 960px;
   margin: 0 auto;
 }
+
+
 
