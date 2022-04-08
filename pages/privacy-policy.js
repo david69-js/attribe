@@ -1290,10 +1290,109 @@ export default function Privacy() {
                 </span>
               </div>
             </div>
+
+            <ul
+              className=" list-disc"
+              style={{ margin: "16px 0 28px 0", paddingLeft: "40px" }}
+            >
+              <li style={{ lineHeight: "1.5" }}>
+                <span style={{ fontSize: "15px", color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: "15px", color: "rgb(89,89, 89)" }}>
+                    <span data-custom-classname="body_text">
+                      <em>Log and Usage Data.</em> Log and usage data is
+                      service-related, diagnostic, usage, and performance
+                      information our servers automatically collect when you
+                      access or use our Services and which we record in log
+                      files. Depending on how you interact with us, this log
+                      data may include your IP address, device information,
+                      browser type, and settings and information about your
+                      activity in the Services
+                      <span style={{ fontSize: "15px" }}>&nbsp;</span>(such as
+                      the date/time stamps associated with your usage, pages and
+                      files viewed, searches, and other actions you take such as
+                      which features you use), device event information (such as
+                      system activity, error reports (sometimes called "crash
+                      dumps"), and hardware settings).
+                      <span style={{ fontSize: "15px" }}>
+                        <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span data-custom-classname="body_text">
+                            <span style={{ fontSize: "15px" }}>
+                              <span style={{ color: "rgb(89, 89, 89)" }}>
+                                <bdt classname="statement-end-if-in-editor" />
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </li>
+
+              <li style={{ lineHeight: "1.5" }}>
+                <span style={{ fontSize: "15px", color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: "15px", color: "rgb(89,89, 89)" }}>
+                    <span data-custom-classname="body_text">
+                      <em>Location Data.</em> We collect location data such as
+                      information about your device's location, which can be
+                      either precise or imprecise. How much information we
+                      collect depends on the type and settings of the device you
+                      use to access the Services. For example, we may use GPS
+                      and other technologies to collect geolocation data that
+                      tells us your current location (based on your IP address).
+                      You can opt out of allowing us to collect this information
+                      either by refusing access to the information or by
+                      disabling your Location setting on your device. However,
+                      if you choose to opt out, you may not be able to use
+                      certain aspects of the Services.
+                      <span style={{ fontSize: "15px" }}>
+                        <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span data-custom-classname="body_text">
+                            <span style={{ fontSize: "15px" }}>
+                              <span style={{ color: "rgb(89, 89, 89)" }}>
+                                <bdt classname="statement-end-if-in-editor" />
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </li>
+
+              <li style={{ lineHeight: "1.5" }}>
+                <span style={{ fontSize: "15px", color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: "15px", color: "rgb(89,89, 89)" }}>
+                    <span data-custom-classname="body_text">
+                      <em>Device Data.</em> We collect device data such as
+                      information about your computer, phone, tablet, or other
+                      device you use to access the Services. Depending on the
+                      device used, this device data may include information such
+                      as your IP address (or proxy server), device and
+                      application identification numbers, location, browser
+                      type, hardware model, Internet service provider and/or
+                      mobile carrier, operating system, and system configuration
+                      information.
+                      <span style={{ fontSize: "15px" }}>
+                        <span style={{ color: "rgb(89, 89,89)" }}>
+                          <span data-custom-classname="body_text">
+                            <span style={{ fontSize: "15px" }}>
+                              <span style={{ color: "rgb(89, 89, 89)" }}>
+                                <bdt classname="statement-end-if-in-editor" />
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
