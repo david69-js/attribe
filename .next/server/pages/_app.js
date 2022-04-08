@@ -1,111 +1,358 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./components/Footer/Footer.js":
-/*!*************************************!*\
-  !*** ./components/Footer/Footer.js ***!
-  \*************************************/
+/***/ 561:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Footer)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\n/* This example requires Tailwind CSS v2.0+ */ const navigation = {\n    main: [\n        {\n            name: 'Privacy Policy',\n            href: '/privacy-policy'\n        },\n        {\n            name: 'Terms and Conditions',\n            href: '/terms'\n        }, \n    ],\n    social: [\n        {\n            name: 'Facebook',\n            href: '#',\n            icon: (props)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    fill: \"currentColor\",\n                    viewBox: \"0 0 24 24\",\n                    ...props,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        fillRule: \"evenodd\",\n                        d: \"M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z\",\n                        clipRule: \"evenodd\"\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                        lineNumber: 13,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 12,\n                    columnNumber: 9\n                }, undefined)\n        },\n        {\n            name: 'Instagram',\n            href: '#',\n            icon: (props)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    fill: \"currentColor\",\n                    viewBox: \"0 0 24 24\",\n                    ...props,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        fillRule: \"evenodd\",\n                        d: \"M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z\",\n                        clipRule: \"evenodd\"\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                        lineNumber: 26,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 25,\n                    columnNumber: 9\n                }, undefined)\n        },\n        {\n            name: 'Twitter',\n            href: '#',\n            icon: (props)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    fill: \"currentColor\",\n                    viewBox: \"0 0 24 24\",\n                    ...props,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        d: \"M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84\"\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                        lineNumber: 39,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 38,\n                    columnNumber: 9\n                }, undefined)\n        },\n        {\n            name: 'GitHub',\n            href: '#',\n            icon: (props)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    fill: \"currentColor\",\n                    viewBox: \"0 0 24 24\",\n                    ...props,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        fillRule: \"evenodd\",\n                        d: \"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z\",\n                        clipRule: \"evenodd\"\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                        lineNumber: 48,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 47,\n                    columnNumber: 9\n                }, undefined)\n        },\n        {\n            name: 'Dribbble',\n            href: '#',\n            icon: (props)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    fill: \"currentColor\",\n                    viewBox: \"0 0 24 24\",\n                    ...props,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        fillRule: \"evenodd\",\n                        d: \"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z\",\n                        clipRule: \"evenodd\"\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                        lineNumber: 61,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 60,\n                    columnNumber: 9\n                }, undefined)\n        }, \n    ]\n};\nfunction Footer() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n        className: \"bg-white\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                    className: \"-mx-5 -my-2 flex flex-wrap justify-center\",\n                    \"aria-label\": \"Footer\",\n                    children: navigation.main.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"px-5 py-2\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: item.href,\n                                className: \"text-base text-gray-500 hover:text-gray-900\",\n                                children: item.name\n                            }, void 0, false, {\n                                fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                                lineNumber: 79,\n                                columnNumber: 15\n                            }, this)\n                        }, item.name, false, {\n                            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                            lineNumber: 78,\n                            columnNumber: 13\n                        }, this)\n                    )\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 76,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"mt-8 flex justify-center space-x-6\",\n                    children: navigation.social.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: item.href,\n                            className: \"text-gray-400 hover:text-gray-500\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    className: \"sr-only\",\n                                    children: item.name\n                                }, void 0, false, {\n                                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                                    lineNumber: 88,\n                                    columnNumber: 15\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(item.icon, {\n                                    className: \"h-6 w-6\",\n                                    \"aria-hidden\": \"true\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                                    lineNumber: 89,\n                                    columnNumber: 15\n                                }, this)\n                            ]\n                        }, item.name, true, {\n                            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                            lineNumber: 87,\n                            columnNumber: 13\n                        }, this)\n                    )\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 85,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    className: \"mt-8 text-center text-base text-gray-400\",\n                    children: \"\\xa9 2020 Workflow, Inc. All rights reserved.\"\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n                    lineNumber: 93,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n            lineNumber: 75,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Footer/Footer.js\",\n        lineNumber: 74,\n        columnNumber: 5\n    }, this));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0Zvb3Rlci9Gb290ZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLEVBQThDLDZDQUM5QyxLQUFLLENBQUNBLFVBQVUsR0FBRyxDQUFDO0lBQ2xCQyxJQUFJLEVBQUUsQ0FBQztRQUNMLENBQUM7WUFBQ0MsSUFBSSxFQUFFLENBQWdCO1lBQUVDLElBQUksRUFBRSxDQUFpQjtRQUFDLENBQUM7UUFDbkQsQ0FBQztZQUFDRCxJQUFJLEVBQUUsQ0FBc0I7WUFBRUMsSUFBSSxFQUFFLENBQVE7UUFBQyxDQUFDO0lBQ2xELENBQUM7SUFDREMsTUFBTSxFQUFFLENBQUM7UUFDUCxDQUFDO1lBQ0NGLElBQUksRUFBRSxDQUFVO1lBQ2hCQyxJQUFJLEVBQUUsQ0FBRztZQUNURSxJQUFJLEdBQUdDLEtBQUssK0VBQ1RDLENBQUc7b0JBQUNDLElBQUksRUFBQyxDQUFjO29CQUFDQyxPQUFPLEVBQUMsQ0FBVzt1QkFBS0gsS0FBSzswR0FDbkRJLENBQUk7d0JBQ0hDLFFBQVEsRUFBQyxDQUFTO3dCQUNsQkMsQ0FBQyxFQUFDLENBQXdRO3dCQUMxUUMsUUFBUSxFQUFDLENBQVM7Ozs7Ozs7Ozs7O1FBSTFCLENBQUM7UUFDRCxDQUFDO1lBQ0NYLElBQUksRUFBRSxDQUFXO1lBQ2pCQyxJQUFJLEVBQUUsQ0FBRztZQUNURSxJQUFJLEdBQUdDLEtBQUssK0VBQ1RDLENBQUc7b0JBQUNDLElBQUksRUFBQyxDQUFjO29CQUFDQyxPQUFPLEVBQUMsQ0FBVzt1QkFBS0gsS0FBSzswR0FDbkRJLENBQUk7d0JBQ0hDLFFBQVEsRUFBQyxDQUFTO3dCQUNsQkMsQ0FBQyxFQUFDLENBQTZqRDt3QkFDL2pEQyxRQUFRLEVBQUMsQ0FBUzs7Ozs7Ozs7Ozs7UUFJMUIsQ0FBQztRQUNELENBQUM7WUFDQ1gsSUFBSSxFQUFFLENBQVM7WUFDZkMsSUFBSSxFQUFFLENBQUc7WUFDVEUsSUFBSSxHQUFHQyxLQUFLLCtFQUNUQyxDQUFHO29CQUFDQyxJQUFJLEVBQUMsQ0FBYztvQkFBQ0MsT0FBTyxFQUFDLENBQVc7dUJBQUtILEtBQUs7MEdBQ25ESSxDQUFJO3dCQUFDRSxDQUFDLEVBQUMsQ0FBeWE7Ozs7Ozs7Ozs7O1FBR3ZiLENBQUM7UUFDRCxDQUFDO1lBQ0NWLElBQUksRUFBRSxDQUFRO1lBQ2RDLElBQUksRUFBRSxDQUFHO1lBQ1RFLElBQUksR0FBR0MsS0FBSywrRUFDVEMsQ0FBRztvQkFBQ0MsSUFBSSxFQUFDLENBQWM7b0JBQUNDLE9BQU8sRUFBQyxDQUFXO3VCQUFLSCxLQUFLOzBHQUNuREksQ0FBSTt3QkFDSEMsUUFBUSxFQUFDLENBQVM7d0JBQ2xCQyxDQUFDLEVBQUMsQ0FBa3RCO3dCQUNwdEJDLFFBQVEsRUFBQyxDQUFTOzs7Ozs7Ozs7OztRQUkxQixDQUFDO1FBQ0QsQ0FBQztZQUNDWCxJQUFJLEVBQUUsQ0FBVTtZQUNoQkMsSUFBSSxFQUFFLENBQUc7WUFDVEUsSUFBSSxHQUFHQyxLQUFLLCtFQUNUQyxDQUFHO29CQUFDQyxJQUFJLEVBQUMsQ0FBYztvQkFBQ0MsT0FBTyxFQUFDLENBQVc7dUJBQUtILEtBQUs7MEdBQ25ESSxDQUFJO3dCQUNIQyxRQUFRLEVBQUMsQ0FBUzt3QkFDbEJDLENBQUMsRUFBQyxDQUF5M0I7d0JBQzMzQkMsUUFBUSxFQUFDLENBQVM7Ozs7Ozs7Ozs7O1FBSTFCLENBQUM7SUFDSCxDQUFDO0FBQ0gsQ0FBQztBQUVjLFFBQVEsQ0FBQ0MsTUFBTSxHQUFHLENBQUM7SUFDaEMsTUFBTSw2RUFDSEMsQ0FBTTtRQUFDQyxTQUFTLEVBQUMsQ0FBVTs4RkFDekJDLENBQUc7WUFBQ0QsU0FBUyxFQUFDLENBQThEOzs0RkFDMUVFLENBQUc7b0JBQUNGLFNBQVMsRUFBQyxDQUEyQztvQkFBQ0csQ0FBVSxhQUFDLENBQVE7OEJBQzNFbkIsVUFBVSxDQUFDQyxJQUFJLENBQUNtQixHQUFHLEVBQUVDLElBQUksK0VBQ3ZCSixDQUFHOzRCQUFpQkQsU0FBUyxFQUFDLENBQVc7a0hBQ3ZDTSxDQUFDO2dDQUFDbkIsSUFBSSxFQUFFa0IsSUFBSSxDQUFDbEIsSUFBSTtnQ0FBRWEsU0FBUyxFQUFDLENBQTZDOzBDQUN4RUssSUFBSSxDQUFDbkIsSUFBSTs7Ozs7OzJCQUZKbUIsSUFBSSxDQUFDbkIsSUFBSTs7Ozs7Ozs7Ozs7NEZBT3RCZSxDQUFHO29CQUFDRCxTQUFTLEVBQUMsQ0FBb0M7OEJBQ2hEaEIsVUFBVSxDQUFDSSxNQUFNLENBQUNnQixHQUFHLEVBQUVDLElBQUksK0VBQ3pCQyxDQUFDOzRCQUFpQm5CLElBQUksRUFBRWtCLElBQUksQ0FBQ2xCLElBQUk7NEJBQUVhLFNBQVMsRUFBQyxDQUFtQzs7NEdBQzlFTyxDQUFJO29DQUFDUCxTQUFTLEVBQUMsQ0FBUzs4Q0FBRUssSUFBSSxDQUFDbkIsSUFBSTs7Ozs7OzRHQUNuQ21CLElBQUksQ0FBQ2hCLElBQUk7b0NBQUNXLFNBQVMsRUFBQyxDQUFTO29DQUFDUSxDQUFXLGNBQUMsQ0FBTTs7Ozs7OzsyQkFGM0NILElBQUksQ0FBQ25CLElBQUk7Ozs7Ozs7Ozs7OzRGQU1wQnVCLENBQUM7b0JBQUNULFNBQVMsRUFBQyxDQUEwQzs4QkFBQyxDQUErQzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJL0csQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2F0dHJpYmUvLi9jb21wb25lbnRzL0Zvb3Rlci9Gb290ZXIuanM/ZWVhMyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKiBUaGlzIGV4YW1wbGUgcmVxdWlyZXMgVGFpbHdpbmQgQ1NTIHYyLjArICovXG5jb25zdCBuYXZpZ2F0aW9uID0ge1xuICBtYWluOiBbXG4gICAgeyBuYW1lOiAnUHJpdmFjeSBQb2xpY3knLCBocmVmOiAnL3ByaXZhY3ktcG9saWN5JyB9LFxuICAgIHsgbmFtZTogJ1Rlcm1zIGFuZCBDb25kaXRpb25zJywgaHJlZjogJy90ZXJtcycgfSxcbiAgXSxcbiAgc29jaWFsOiBbXG4gICAge1xuICAgICAgbmFtZTogJ0ZhY2Vib29rJyxcbiAgICAgIGhyZWY6ICcjJyxcbiAgICAgIGljb246IChwcm9wcykgPT4gKFxuICAgICAgICA8c3ZnIGZpbGw9XCJjdXJyZW50Q29sb3JcIiB2aWV3Qm94PVwiMCAwIDI0IDI0XCIgey4uLnByb3BzfT5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgZmlsbFJ1bGU9XCJldmVub2RkXCJcbiAgICAgICAgICAgIGQ9XCJNMjIgMTJjMC01LjUyMy00LjQ3Ny0xMC0xMC0xMFMyIDYuNDc3IDIgMTJjMCA0Ljk5MSAzLjY1NyA5LjEyOCA4LjQzOCA5Ljg3OHYtNi45ODdoLTIuNTRWMTJoMi41NFY5Ljc5N2MwLTIuNTA2IDEuNDkyLTMuODkgMy43NzctMy44OSAxLjA5NCAwIDIuMjM4LjE5NSAyLjIzOC4xOTV2Mi40NmgtMS4yNmMtMS4yNDMgMC0xLjYzLjc3MS0xLjYzIDEuNTYyVjEyaDIuNzczbC0uNDQzIDIuODloLTIuMzN2Ni45ODhDMTguMzQzIDIxLjEyOCAyMiAxNi45OTEgMjIgMTJ6XCJcbiAgICAgICAgICAgIGNsaXBSdWxlPVwiZXZlbm9kZFwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG4gICAgICApLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0luc3RhZ3JhbScsXG4gICAgICBocmVmOiAnIycsXG4gICAgICBpY29uOiAocHJvcHMpID0+IChcbiAgICAgICAgPHN2ZyBmaWxsPVwiY3VycmVudENvbG9yXCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIHsuLi5wcm9wc30+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIGZpbGxSdWxlPVwiZXZlbm9kZFwiXG4gICAgICAgICAgICBkPVwiTTEyLjMxNSAyYzIuNDMgMCAyLjc4NC4wMTMgMy44MDguMDYgMS4wNjQuMDQ5IDEuNzkxLjIxOCAyLjQyNy40NjVhNC45MDIgNC45MDIgMCAwMTEuNzcyIDEuMTUzIDQuOTAyIDQuOTAyIDAgMDExLjE1MyAxLjc3MmMuMjQ3LjYzNi40MTYgMS4zNjMuNDY1IDIuNDI3LjA0OCAxLjA2Ny4wNiAxLjQwNy4wNiA0LjEyM3YuMDhjMCAyLjY0My0uMDEyIDIuOTg3LS4wNiA0LjA0My0uMDQ5IDEuMDY0LS4yMTggMS43OTEtLjQ2NSAyLjQyN2E0LjkwMiA0LjkwMiAwIDAxLTEuMTUzIDEuNzcyIDQuOTAyIDQuOTAyIDAgMDEtMS43NzIgMS4xNTNjLS42MzYuMjQ3LTEuMzYzLjQxNi0yLjQyNy40NjUtMS4wNjcuMDQ4LTEuNDA3LjA2LTQuMTIzLjA2aC0uMDhjLTIuNjQzIDAtMi45ODctLjAxMi00LjA0My0uMDYtMS4wNjQtLjA0OS0xLjc5MS0uMjE4LTIuNDI3LS40NjVhNC45MDIgNC45MDIgMCAwMS0xLjc3Mi0xLjE1MyA0LjkwMiA0LjkwMiAwIDAxLTEuMTUzLTEuNzcyYy0uMjQ3LS42MzYtLjQxNi0xLjM2My0uNDY1LTIuNDI3LS4wNDctMS4wMjQtLjA2LTEuMzc5LS4wNi0zLjgwOHYtLjYzYzAtMi40My4wMTMtMi43ODQuMDYtMy44MDguMDQ5LTEuMDY0LjIxOC0xLjc5MS40NjUtMi40MjdhNC45MDIgNC45MDIgMCAwMTEuMTUzLTEuNzcyQTQuOTAyIDQuOTAyIDAgMDE1LjQ1IDIuNTI1Yy42MzYtLjI0NyAxLjM2My0uNDE2IDIuNDI3LS40NjVDOC45MDEgMi4wMTMgOS4yNTYgMiAxMS42ODUgMmguNjN6bS0uMDgxIDEuODAyaC0uNDY4Yy0yLjQ1NiAwLTIuNzg0LjAxMS0zLjgwNy4wNTgtLjk3NS4wNDUtMS41MDQuMjA3LTEuODU3LjM0NC0uNDY3LjE4Mi0uOC4zOTgtMS4xNS43NDgtLjM1LjM1LS41NjYuNjgzLS43NDggMS4xNS0uMTM3LjM1My0uMy44ODItLjM0NCAxLjg1Ny0uMDQ3IDEuMDIzLS4wNTggMS4zNTEtLjA1OCAzLjgwN3YuNDY4YzAgMi40NTYuMDExIDIuNzg0LjA1OCAzLjgwNy4wNDUuOTc1LjIwNyAxLjUwNC4zNDQgMS44NTcuMTgyLjQ2Ni4zOTkuOC43NDggMS4xNS4zNS4zNS42ODMuNTY2IDEuMTUuNzQ4LjM1My4xMzcuODgyLjMgMS44NTcuMzQ0IDEuMDU0LjA0OCAxLjM3LjA1OCA0LjA0MS4wNThoLjA4YzIuNTk3IDAgMi45MTctLjAxIDMuOTYtLjA1OC45NzYtLjA0NSAxLjUwNS0uMjA3IDEuODU4LS4zNDQuNDY2LS4xODIuOC0uMzk4IDEuMTUtLjc0OC4zNS0uMzUuNTY2LS42ODMuNzQ4LTEuMTUuMTM3LS4zNTMuMy0uODgyLjM0NC0xLjg1Ny4wNDgtMS4wNTUuMDU4LTEuMzcuMDU4LTQuMDQxdi0uMDhjMC0yLjU5Ny0uMDEtMi45MTctLjA1OC0zLjk2LS4wNDUtLjk3Ni0uMjA3LTEuNTA1LS4zNDQtMS44NThhMy4wOTcgMy4wOTcgMCAwMC0uNzQ4LTEuMTUgMy4wOTggMy4wOTggMCAwMC0xLjE1LS43NDhjLS4zNTMtLjEzNy0uODgyLS4zLTEuODU3LS4zNDQtMS4wMjMtLjA0Ny0xLjM1MS0uMDU4LTMuODA3LS4wNTh6TTEyIDYuODY1YTUuMTM1IDUuMTM1IDAgMTEwIDEwLjI3IDUuMTM1IDUuMTM1IDAgMDEwLTEwLjI3em0wIDEuODAyYTMuMzMzIDMuMzMzIDAgMTAwIDYuNjY2IDMuMzMzIDMuMzMzIDAgMDAwLTYuNjY2em01LjMzOC0zLjIwNWExLjIgMS4yIDAgMTEwIDIuNCAxLjIgMS4yIDAgMDEwLTIuNHpcIlxuICAgICAgICAgICAgY2xpcFJ1bGU9XCJldmVub2RkXCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cbiAgICAgICksXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnVHdpdHRlcicsXG4gICAgICBocmVmOiAnIycsXG4gICAgICBpY29uOiAocHJvcHMpID0+IChcbiAgICAgICAgPHN2ZyBmaWxsPVwiY3VycmVudENvbG9yXCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIHsuLi5wcm9wc30+XG4gICAgICAgICAgPHBhdGggZD1cIk04LjI5IDIwLjI1MWM3LjU0NyAwIDExLjY3NS02LjI1MyAxMS42NzUtMTEuNjc1IDAtLjE3OCAwLS4zNTUtLjAxMi0uNTNBOC4zNDggOC4zNDggMCAwMDIyIDUuOTJhOC4xOSA4LjE5IDAgMDEtMi4zNTcuNjQ2IDQuMTE4IDQuMTE4IDAgMDAxLjgwNC0yLjI3IDguMjI0IDguMjI0IDAgMDEtMi42MDUuOTk2IDQuMTA3IDQuMTA3IDAgMDAtNi45OTMgMy43NDMgMTEuNjUgMTEuNjUgMCAwMS04LjQ1Ny00LjI4NyA0LjEwNiA0LjEwNiAwIDAwMS4yNyA1LjQ3N0E0LjA3MiA0LjA3MiAwIDAxMi44IDkuNzEzdi4wNTJhNC4xMDUgNC4xMDUgMCAwMDMuMjkyIDQuMDIyIDQuMDk1IDQuMDk1IDAgMDEtMS44NTMuMDcgNC4xMDggNC4xMDggMCAwMDMuODM0IDIuODVBOC4yMzMgOC4yMzMgMCAwMTIgMTguNDA3YTExLjYxNiAxMS42MTYgMCAwMDYuMjkgMS44NFwiIC8+XG4gICAgICAgIDwvc3ZnPlxuICAgICAgKSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdHaXRIdWInLFxuICAgICAgaHJlZjogJyMnLFxuICAgICAgaWNvbjogKHByb3BzKSA9PiAoXG4gICAgICAgIDxzdmcgZmlsbD1cImN1cnJlbnRDb2xvclwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiB7Li4ucHJvcHN9PlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBmaWxsUnVsZT1cImV2ZW5vZGRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyQzYuNDc3IDIgMiA2LjQ4NCAyIDEyLjAxN2MwIDQuNDI1IDIuODY1IDguMTggNi44MzkgOS41MDQuNS4wOTIuNjgyLS4yMTcuNjgyLS40ODMgMC0uMjM3LS4wMDgtLjg2OC0uMDEzLTEuNzAzLTIuNzgyLjYwNS0zLjM2OS0xLjM0My0zLjM2OS0xLjM0My0uNDU0LTEuMTU4LTEuMTEtMS40NjYtMS4xMS0xLjQ2Ni0uOTA4LS42Mi4wNjktLjYwOC4wNjktLjYwOCAxLjAwMy4wNyAxLjUzMSAxLjAzMiAxLjUzMSAxLjAzMi44OTIgMS41MyAyLjM0MSAxLjA4OCAyLjkxLjgzMi4wOTItLjY0Ny4zNS0xLjA4OC42MzYtMS4zMzgtMi4yMi0uMjUzLTQuNTU1LTEuMTEzLTQuNTU1LTQuOTUxIDAtMS4wOTMuMzktMS45ODggMS4wMjktMi42ODgtLjEwMy0uMjUzLS40NDYtMS4yNzIuMDk4LTIuNjUgMCAwIC44NC0uMjcgMi43NSAxLjAyNkE5LjU2NCA5LjU2NCAwIDAxMTIgNi44NDRjLjg1LjAwNCAxLjcwNS4xMTUgMi41MDQuMzM3IDEuOTA5LTEuMjk2IDIuNzQ3LTEuMDI3IDIuNzQ3LTEuMDI3LjU0NiAxLjM3OS4yMDIgMi4zOTguMSAyLjY1MS42NC43IDEuMDI4IDEuNTk1IDEuMDI4IDIuNjg4IDAgMy44NDgtMi4zMzkgNC42OTUtNC41NjYgNC45NDMuMzU5LjMwOS42NzguOTIuNjc4IDEuODU1IDAgMS4zMzgtLjAxMiAyLjQxOS0uMDEyIDIuNzQ3IDAgLjI2OC4xOC41OC42ODguNDgyQTEwLjAxOSAxMC4wMTkgMCAwMDIyIDEyLjAxN0MyMiA2LjQ4NCAxNy41MjIgMiAxMiAyelwiXG4gICAgICAgICAgICBjbGlwUnVsZT1cImV2ZW5vZGRcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuICAgICAgKSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdEcmliYmJsZScsXG4gICAgICBocmVmOiAnIycsXG4gICAgICBpY29uOiAocHJvcHMpID0+IChcbiAgICAgICAgPHN2ZyBmaWxsPVwiY3VycmVudENvbG9yXCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIHsuLi5wcm9wc30+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIGZpbGxSdWxlPVwiZXZlbm9kZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTBjNS41MSAwIDEwLTQuNDggMTAtMTBTMTcuNTEgMiAxMiAyem02LjYwNSA0LjYxYTguNTAyIDguNTAyIDAgMDExLjkzIDUuMzE0Yy0uMjgxLS4wNTQtMy4xMDEtLjYyOS01Ljk0My0uMjcxLS4wNjUtLjE0MS0uMTItLjI5My0uMTg0LS40NDVhMjUuNDE2IDI1LjQxNiAwIDAwLS41NjQtMS4yMzZjMy4xNDUtMS4yOCA0LjU3Ny0zLjEyNCA0Ljc2MS0zLjM2MnpNMTIgMy40NzVjMi4xNyAwIDQuMTU0LjgxMyA1LjY2MiAyLjE0OC0uMTUyLjIxNi0xLjQ0MyAxLjk0MS00LjQ4IDMuMDgtMS4zOTktMi41Ny0yLjk1LTQuNjc1LTMuMTg5LTVBOC42ODcgOC42ODcgMCAwMTEyIDMuNDc1em0tMy42MzMuODAzYTUzLjg5NiA1My44OTYgMCAwMTMuMTY3IDQuOTM1Yy0zLjk5MiAxLjA2My03LjUxNyAxLjA0LTcuODk2IDEuMDRhOC41ODEgOC41ODEgMCAwMTQuNzI5LTUuOTc1ek0zLjQ1MyAxMi4wMXYtLjI2Yy4zNy4wMSA0LjUxMi4wNjUgOC43NzUtMS4yMTUuMjUuNDc3LjQ3Ny45NjUuNjk0IDEuNDUzLS4xMDkuMDMzLS4yMjguMDY1LS4zMzYuMDk4LTQuNDA0IDEuNDItNi43NDcgNS4zMDMtNi45NDIgNS42MjlhOC41MjIgOC41MjIgMCAwMS0yLjE5LTUuNzA1ek0xMiAyMC41NDdhOC40ODIgOC40ODIgMCAwMS01LjIzOS0xLjhjLjE1Mi0uMzE1IDEuODg4LTMuNjU2IDYuNzAzLTUuMzM3LjAyMi0uMDEuMDMzLS4wMS4wNTQtLjAyMmEzNS4zMTggMzUuMzE4IDAgMDExLjgyMyA2LjQ3NSA4LjQgOC40IDAgMDEtMy4zNDEuNjg0em00Ljc2MS0xLjQ2NWMtLjA4Ni0uNTItLjU0Mi0zLjAxNS0xLjY1OS02LjA4NCAyLjY3OS0uNDIzIDUuMDIyLjI3MSA1LjMxNC4zNjlhOC40NjggOC40NjggMCAwMS0zLjY1NSA1LjcxNXpcIlxuICAgICAgICAgICAgY2xpcFJ1bGU9XCJldmVub2RkXCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cbiAgICAgICksXG4gICAgfSxcbiAgXSxcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRm9vdGVyKCkge1xuICByZXR1cm4gKFxuICAgIDxmb290ZXIgY2xhc3NOYW1lPVwiYmctd2hpdGVcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWF4LXctN3hsIG14LWF1dG8gcHktMTIgcHgtNCBvdmVyZmxvdy1oaWRkZW4gc206cHgtNiBsZzpweC04XCI+XG4gICAgICAgIDxuYXYgY2xhc3NOYW1lPVwiLW14LTUgLW15LTIgZmxleCBmbGV4LXdyYXAganVzdGlmeS1jZW50ZXJcIiBhcmlhLWxhYmVsPVwiRm9vdGVyXCI+XG4gICAgICAgICAge25hdmlnYXRpb24ubWFpbi5tYXAoKGl0ZW0pID0+IChcbiAgICAgICAgICAgIDxkaXYga2V5PXtpdGVtLm5hbWV9IGNsYXNzTmFtZT1cInB4LTUgcHktMlwiPlxuICAgICAgICAgICAgICA8YSBocmVmPXtpdGVtLmhyZWZ9IGNsYXNzTmFtZT1cInRleHQtYmFzZSB0ZXh0LWdyYXktNTAwIGhvdmVyOnRleHQtZ3JheS05MDBcIj5cbiAgICAgICAgICAgICAgICB7aXRlbS5uYW1lfVxuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9uYXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibXQtOCBmbGV4IGp1c3RpZnktY2VudGVyIHNwYWNlLXgtNlwiPlxuICAgICAgICAgIHtuYXZpZ2F0aW9uLnNvY2lhbC5tYXAoKGl0ZW0pID0+IChcbiAgICAgICAgICAgIDxhIGtleT17aXRlbS5uYW1lfSBocmVmPXtpdGVtLmhyZWZ9IGNsYXNzTmFtZT1cInRleHQtZ3JheS00MDAgaG92ZXI6dGV4dC1ncmF5LTUwMFwiPlxuICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJzci1vbmx5XCI+e2l0ZW0ubmFtZX08L3NwYW4+XG4gICAgICAgICAgICAgIDxpdGVtLmljb24gY2xhc3NOYW1lPVwiaC02IHctNlwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiIC8+XG4gICAgICAgICAgICA8L2E+XG4gICAgICAgICAgKSl9XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8cCBjbGFzc05hbWU9XCJtdC04IHRleHQtY2VudGVyIHRleHQtYmFzZSB0ZXh0LWdyYXktNDAwXCI+JmNvcHk7IDIwMjAgV29ya2Zsb3csIEluYy4gQWxsIHJpZ2h0cyByZXNlcnZlZC48L3A+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Zvb3Rlcj5cbiAgKVxufSJdLCJuYW1lcyI6WyJuYXZpZ2F0aW9uIiwibWFpbiIsIm5hbWUiLCJocmVmIiwic29jaWFsIiwiaWNvbiIsInByb3BzIiwic3ZnIiwiZmlsbCIsInZpZXdCb3giLCJwYXRoIiwiZmlsbFJ1bGUiLCJkIiwiY2xpcFJ1bGUiLCJGb290ZXIiLCJmb290ZXIiLCJjbGFzc05hbWUiLCJkaXYiLCJuYXYiLCJhcmlhLWxhYmVsIiwibWFwIiwiaXRlbSIsImEiLCJzcGFuIiwiYXJpYS1oaWRkZW4iLCJwIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Footer/Footer.js\n");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ Footer)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+/* This example requires Tailwind CSS v2.0+ */ const navigation = {
+    main: [
+        {
+            name: 'Privacy Policy',
+            href: '/Privacy.html'
+        },
+        {
+            name: 'Terms and Conditions',
+            href: '/Terms.html'
+        }, 
+    ],
+    social: [
+        {
+            name: 'Facebook',
+            href: '#',
+            icon: (props)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                    fill: "currentColor",
+                    viewBox: "0 0 24 24",
+                    ...props,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                        fillRule: "evenodd",
+                        d: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z",
+                        clipRule: "evenodd"
+                    })
+                })
+        },
+        {
+            name: 'Instagram',
+            href: '#',
+            icon: (props)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                    fill: "currentColor",
+                    viewBox: "0 0 24 24",
+                    ...props,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                        fillRule: "evenodd",
+                        d: "M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z",
+                        clipRule: "evenodd"
+                    })
+                })
+        },
+        {
+            name: 'Twitter',
+            href: '#',
+            icon: (props)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                    fill: "currentColor",
+                    viewBox: "0 0 24 24",
+                    ...props,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                        d: "M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                    })
+                })
+        },
+        {
+            name: 'GitHub',
+            href: '#',
+            icon: (props)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                    fill: "currentColor",
+                    viewBox: "0 0 24 24",
+                    ...props,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                        fillRule: "evenodd",
+                        d: "M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z",
+                        clipRule: "evenodd"
+                    })
+                })
+        },
+        {
+            name: 'Dribbble',
+            href: '#',
+            icon: (props)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                    fill: "currentColor",
+                    viewBox: "0 0 24 24",
+                    ...props,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                        fillRule: "evenodd",
+                        d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z",
+                        clipRule: "evenodd"
+                    })
+                })
+        }, 
+    ]
+};
+function Footer() {
+    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("footer", {
+        className: "bg-white",
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: "max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8",
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("nav", {
+                    className: "-mx-5 -my-2 flex flex-wrap justify-center",
+                    "aria-label": "Footer",
+                    children: navigation.main.map((item)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "px-5 py-2",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                href: item.href,
+                                className: "text-base text-gray-500 hover:text-gray-900",
+                                children: item.name
+                            })
+                        }, item.name)
+                    )
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "mt-8 flex justify-center space-x-6",
+                    children: navigation.social.map((item)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+                            href: item.href,
+                            className: "text-gray-400 hover:text-gray-500",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    className: "sr-only",
+                                    children: item.name
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(item.icon, {
+                                    className: "h-6 w-6",
+                                    "aria-hidden": "true"
+                                })
+                            ]
+                        }, item.name)
+                    )
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    className: "mt-8 text-center text-base text-gray-400",
+                    children: "\xa9 2020 Workflow, Inc. All rights reserved."
+                })
+            ]
+        })
+    }));
+};
+
 
 /***/ }),
 
-/***/ "./components/Header/Header.js":
-/*!*************************************!*\
-  !*** ./components/Header/Header.js ***!
-  \*************************************/
+/***/ 137:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @headlessui/react */ \"@headlessui/react\");\n/* harmony import */ var _heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @heroicons/react/outline */ \"@heroicons/react/outline\");\n/* harmony import */ var _heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_headlessui_react__WEBPACK_IMPORTED_MODULE_2__]);\n_headlessui_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n/*\n  This example requires Tailwind CSS v2.0+ \n  \n  This example requires some changes to your config:\n  \n  ```\n  // tailwind.config.js\n  module.exports = {\n    // ...\n    plugins: [\n      // ...\n      require('@tailwindcss/forms'),\n    ],\n  }\n  ```\n*/ \n\n\nfunction Header() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Popover, {\n            as: \"header\",\n            className: \"relative\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"header__container py-6\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                        className: \"relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6\",\n                        \"aria-label\": \"Global\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"flex items-center flex-1\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"flex items-center justify-between w-full md:w-auto\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"logo__text\",\n                                    href: \"/\",\n                                    style: {\n                                        color: 'white',\n                                        fontSize: '3rem'\n                                    },\n                                    children: \"attribe\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                    lineNumber: 32,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                lineNumber: 31,\n                                columnNumber: 15\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                            lineNumber: 30,\n                            columnNumber: 13\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                        lineNumber: 26,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                    lineNumber: 25,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Transition, {\n                    as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,\n                    enter: \"duration-150 ease-out\",\n                    enterFrom: \"opacity-0 scale-95\",\n                    enterTo: \"opacity-100 scale-100\",\n                    leave: \"duration-100 ease-in\",\n                    leaveFrom: \"opacity-100 scale-100\",\n                    leaveTo: \"opacity-0 scale-95\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Popover.Panel, {\n                        focus: true,\n                        className: \"absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"px-5 pt-4 flex items-center justify-between\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                            className: \"h-8 w-auto\",\n                                            src: \"https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg\",\n                                            alt: \"\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                            lineNumber: 59,\n                                            columnNumber: 19\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                        lineNumber: 58,\n                                        columnNumber: 17\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"-mr-2\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Popover.Button, {\n                                            className: \"bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    className: \"sr-only\",\n                                                    children: \"Close menu\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                                    lineNumber: 67,\n                                                    columnNumber: 21\n                                                }, this),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3__.XIcon, {\n                                                    className: \"h-6 w-6\",\n                                                    \"aria-hidden\": \"true\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                                    lineNumber: 68,\n                                                    columnNumber: 21\n                                                }, this)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                            lineNumber: 66,\n                                            columnNumber: 19\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                        lineNumber: 65,\n                                        columnNumber: 17\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                                lineNumber: 57,\n                                columnNumber: 15\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                            lineNumber: 56,\n                            columnNumber: 13\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                        lineNumber: 55,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n                    lineNumber: 46,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n            lineNumber: 24,\n            columnNumber: 8\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Header/Header.js\",\n        lineNumber: 23,\n        columnNumber: 5\n    }, this));\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0hlYWRlci9IZWFkZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsRUFlRTs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsR0FDOEI7QUFDdUI7QUFDRztBQUUzQyxRQUFRLENBQUNLLE1BQU0sR0FBRyxDQUFDO0lBQ2hDLE1BQU0sNkVBQ0hDLENBQUc7OEZBQ0FMLHNEQUFPO1lBQUNNLEVBQUUsRUFBQyxDQUFRO1lBQUNDLFNBQVMsRUFBQyxDQUFVOzs0RkFDdkNGLENBQUc7b0JBQUNFLFNBQVMsRUFBQyxDQUF3QjswR0FDcENDLENBQUc7d0JBQ0ZELFNBQVMsRUFBQyxDQUEyRTt3QkFDckZFLENBQVUsYUFBQyxDQUFROzhHQUVsQkosQ0FBRzs0QkFBQ0UsU0FBUyxFQUFDLENBQTBCO2tIQUN0Q0YsQ0FBRztnQ0FBQ0UsU0FBUyxFQUFDLENBQW9EO3NIQUNoRUcsQ0FBQztvQ0FBQ0gsU0FBUyxFQUFDLENBQVk7b0NBQUNJLElBQUksRUFBQyxDQUFHO29DQUFDQyxLQUFLLEVBQUUsQ0FBQ0M7d0NBQUFBLEtBQUssRUFBRSxDQUFPO3dDQUFFQyxRQUFRLEVBQUUsQ0FBTTtvQ0FBQSxDQUFDOzhDQUFFLENBRTlFOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs0RkFZUGIseURBQVU7b0JBQ1RLLEVBQUUsRUFBRVAsMkNBQVE7b0JBQ1pnQixLQUFLLEVBQUMsQ0FBdUI7b0JBQzdCQyxTQUFTLEVBQUMsQ0FBb0I7b0JBQzlCQyxPQUFPLEVBQUMsQ0FBdUI7b0JBQy9CQyxLQUFLLEVBQUMsQ0FBc0I7b0JBQzVCQyxTQUFTLEVBQUMsQ0FBdUI7b0JBQ2pDQyxPQUFPLEVBQUMsQ0FBb0I7MEdBRTNCcEIsNERBQWE7d0JBQUNzQixLQUFLO3dCQUFDZixTQUFTLEVBQUMsQ0FBNkU7OEdBQ3pHRixDQUFHOzRCQUFDRSxTQUFTLEVBQUMsQ0FBZ0Y7a0hBQzVGRixDQUFHO2dDQUFDRSxTQUFTLEVBQUMsQ0FBNkM7O2dIQUN6REYsQ0FBRzs4SEFDRGtCLENBQUc7NENBQ0ZoQixTQUFTLEVBQUMsQ0FBWTs0Q0FDdEJpQixHQUFHLEVBQUMsQ0FBK0Q7NENBQ25FQyxHQUFHLEVBQUMsQ0FBRTs7Ozs7Ozs7Ozs7Z0hBR1RwQixDQUFHO3dDQUFDRSxTQUFTLEVBQUMsQ0FBTzs4SEFDbkJQLDZEQUFjOzRDQUFDTyxTQUFTLEVBQUMsQ0FBd0s7OzRIQUMvTG9CLENBQUk7b0RBQUNwQixTQUFTLEVBQUMsQ0FBUzs4REFBQyxDQUFVOzs7Ozs7NEhBQ25DSiwyREFBSztvREFBQ0ksU0FBUyxFQUFDLENBQVM7b0RBQUNxQixDQUFXLGNBQUMsQ0FBTTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVVqRSxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXR0cmliZS8uL2NvbXBvbmVudHMvSGVhZGVyL0hlYWRlci5qcz82MTEyIl0sInNvdXJjZXNDb250ZW50IjpbIi8qXG4gIFRoaXMgZXhhbXBsZSByZXF1aXJlcyBUYWlsd2luZCBDU1MgdjIuMCsgXG4gIFxuICBUaGlzIGV4YW1wbGUgcmVxdWlyZXMgc29tZSBjaGFuZ2VzIHRvIHlvdXIgY29uZmlnOlxuICBcbiAgYGBgXG4gIC8vIHRhaWx3aW5kLmNvbmZpZy5qc1xuICBtb2R1bGUuZXhwb3J0cyA9IHtcbiAgICAvLyAuLi5cbiAgICBwbHVnaW5zOiBbXG4gICAgICAvLyAuLi5cbiAgICAgIHJlcXVpcmUoJ0B0YWlsd2luZGNzcy9mb3JtcycpLFxuICAgIF0sXG4gIH1cbiAgYGBgXG4qL1xuaW1wb3J0IHsgRnJhZ21lbnQgfSBmcm9tICdyZWFjdCdcbmltcG9ydCB7IFBvcG92ZXIsIFRyYW5zaXRpb24gfSBmcm9tICdAaGVhZGxlc3N1aS9yZWFjdCdcbmltcG9ydCB7IE1lbnVJY29uLCBYSWNvbiB9IGZyb20gJ0BoZXJvaWNvbnMvcmVhY3Qvb3V0bGluZSdcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSGVhZGVyKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICAgPFBvcG92ZXIgYXM9XCJoZWFkZXJcIiBjbGFzc05hbWU9XCJyZWxhdGl2ZVwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRlcl9fY29udGFpbmVyIHB5LTZcIj5cbiAgICAgICAgICA8bmF2XG4gICAgICAgICAgICBjbGFzc05hbWU9XCJyZWxhdGl2ZSBtYXgtdy03eGwgbXgtYXV0byBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtNCBzbTpweC02XCJcbiAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJHbG9iYWxcIlxuICAgICAgICAgID5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZmxleC0xXCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHctZnVsbCBtZDp3LWF1dG9cIj5cbiAgICAgICAgICAgICAgICA8YSBjbGFzc05hbWU9J2xvZ29fX3RleHQnIGhyZWY9XCIvXCIgc3R5bGU9e3tjb2xvcjogJ3doaXRlJywgZm9udFNpemU6ICczcmVtJ319PlxuICAgICAgICAgICAgICAgICAgYXR0cmliZVxuICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICB7LyogPGRpdiBjbGFzc05hbWU9XCItbXItMiBmbGV4IGl0ZW1z4oC64oC64oC64oC64oC64oC64oC64oC64oC64oC64oC64oC6wqLigLrigLrigLrigLrigLrigLrigLrigLrigLrigLrigLrigLrigLotY2VudGVyIG1kOmhpZGRlblwiPlxuICAgICAgICAgICAgICAgICAgPFBvcG92ZXIuQnV0dG9uIGNsYXNzTmFtZT1cImJnLWdyYXktOTAwIHJvdW5kZWQtbWQgcC0yIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LWdyYXktNDAwIGhvdmVyOmJnLWdyYXktODAwIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXMtcmluZy1pbnNldCBmb2N1czpyaW5nLXdoaXRlXCI+XG4gICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInNyLW9ubHlcIj5PcGVuIG1haW4gbWVudTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPE1lbnVJY29uIGNsYXNzTmFtZT1cImgtNiB3LTZcIiBhcmlhLWhpZGRlbj1cInRydWVcIiAvPlxuICAgICAgICAgICAgICAgICAgPC9Qb3BvdmVyLkJ1dHRvbj5cbiAgICAgICAgICAgICAgICA8L2Rpdj4gKi99XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9uYXY+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxUcmFuc2l0aW9uXG4gICAgICAgICAgYXM9e0ZyYWdtZW50fVxuICAgICAgICAgIGVudGVyPVwiZHVyYXRpb24tMTUwIGVhc2Utb3V0XCJcbiAgICAgICAgICBlbnRlckZyb209XCJvcGFjaXR5LTAgc2NhbGUtOTVcIlxuICAgICAgICAgIGVudGVyVG89XCJvcGFjaXR5LTEwMCBzY2FsZS0xMDBcIlxuICAgICAgICAgIGxlYXZlPVwiZHVyYXRpb24tMTAwIGVhc2UtaW5cIlxuICAgICAgICAgIGxlYXZlRnJvbT1cIm9wYWNpdHktMTAwIHNjYWxlLTEwMFwiXG4gICAgICAgICAgbGVhdmVUbz1cIm9wYWNpdHktMCBzY2FsZS05NVwiXG4gICAgICAgID5cbiAgICAgICAgICA8UG9wb3Zlci5QYW5lbCBmb2N1cyBjbGFzc05hbWU9XCJhYnNvbHV0ZSB6LTEwIHRvcC0wIGluc2V0LXgtMCBwLTIgdHJhbnNpdGlvbiB0cmFuc2Zvcm0gb3JpZ2luLXRvcCBtZDpoaWRkZW5cIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm91bmRlZC1sZyBzaGFkb3ctbWQgYmctd2hpdGUgcmluZy0xIHJpbmctYmxhY2sgcmluZy1vcGFjaXR5LTUgb3ZlcmZsb3ctaGlkZGVuXCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHgtNSBwdC00IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlblwiPlxuICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICA8aW1nXG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImgtOCB3LWF1dG9cIlxuICAgICAgICAgICAgICAgICAgICBzcmM9XCJodHRwczovL3RhaWx3aW5kdWkuY29tL2ltZy9sb2dvcy93b3JrZmxvdy1tYXJrLWluZGlnby02MDAuc3ZnXCJcbiAgICAgICAgICAgICAgICAgICAgYWx0PVwiXCJcbiAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCItbXItMlwiPlxuICAgICAgICAgICAgICAgICAgPFBvcG92ZXIuQnV0dG9uIGNsYXNzTmFtZT1cImJnLXdoaXRlIHJvdW5kZWQtbWQgcC0yIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LWdyYXktNDAwIGhvdmVyOmJnLWdyYXktMTAwIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1pbnNldCBmb2N1czpyaW5nLWluZGlnby02MDBcIj5cbiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwic3Itb25seVwiPkNsb3NlIG1lbnU8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgIDxYSWNvbiBjbGFzc05hbWU9XCJoLTYgdy02XCIgYXJpYS1oaWRkZW49XCJ0cnVlXCIgLz5cbiAgICAgICAgICAgICAgICAgIDwvUG9wb3Zlci5CdXR0b24+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9Qb3BvdmVyLlBhbmVsPlxuICAgICAgICA8L1RyYW5zaXRpb24+XG4gICAgICA8L1BvcG92ZXI+XG4gICAgPC9kaXY+XG4gIClcbn0gIl0sIm5hbWVzIjpbIkZyYWdtZW50IiwiUG9wb3ZlciIsIlRyYW5zaXRpb24iLCJNZW51SWNvbiIsIlhJY29uIiwiSGVhZGVyIiwiZGl2IiwiYXMiLCJjbGFzc05hbWUiLCJuYXYiLCJhcmlhLWxhYmVsIiwiYSIsImhyZWYiLCJzdHlsZSIsImNvbG9yIiwiZm9udFNpemUiLCJlbnRlciIsImVudGVyRnJvbSIsImVudGVyVG8iLCJsZWF2ZSIsImxlYXZlRnJvbSIsImxlYXZlVG8iLCJQYW5lbCIsImZvY3VzIiwiaW1nIiwic3JjIiwiYWx0IiwiQnV0dG9uIiwic3BhbiIsImFyaWEtaGlkZGVuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Header/Header.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ Header)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(185);
+/* harmony import */ var _heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(768);
+/* harmony import */ var _heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_headlessui_react__WEBPACK_IMPORTED_MODULE_2__]);
+_headlessui_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+/*
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+*/ 
+
+
+function Header() {
+    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Popover, {
+            as: "header",
+            className: "relative",
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "header__container py-6",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("nav", {
+                        className: "relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6",
+                        "aria-label": "Global",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "flex items-center flex-1",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "flex items-center justify-between w-full md:w-auto",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    className: "logo__text",
+                                    href: "/",
+                                    style: {
+                                        color: 'white',
+                                        fontSize: '3rem'
+                                    },
+                                    children: "attribe"
+                                })
+                            })
+                        })
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Transition, {
+                    as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,
+                    enter: "duration-150 ease-out",
+                    enterFrom: "opacity-0 scale-95",
+                    enterTo: "opacity-100 scale-100",
+                    leave: "duration-100 ease-in",
+                    leaveFrom: "opacity-100 scale-100",
+                    leaveTo: "opacity-0 scale-95",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Popover.Panel, {
+                        focus: true,
+                        className: "absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "px-5 pt-4 flex items-center justify-between",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            className: "h-8 w-auto",
+                                            src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
+                                            alt: ""
+                                        })
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "-mr-2",
+                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_2__.Popover.Button, {
+                                            className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600",
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    className: "sr-only",
+                                                    children: "Close menu"
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_3__.XIcon, {
+                                                    className: "h-6 w-6",
+                                                    "aria-hidden": "true"
+                                                })
+                                            ]
+                                        })
+                                    })
+                                ]
+                            })
+                        })
+                    })
+                })
+            ]
+        })
+    }));
+};
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./components/Layout/index.js":
-/*!************************************!*\
-  !*** ./components/Layout/index.js ***!
-  \************************************/
+/***/ 712:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Footer/Footer */ \"./components/Footer/Footer.js\");\n/* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Header/Header */ \"./components/Header/Header.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Header_Header__WEBPACK_IMPORTED_MODULE_3__]);\n_Header_Header__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nconst Layout = ({ children  })=>{\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Header_Header__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Layout/index.js\",\n                lineNumber: 8,\n                columnNumber: 6\n            }, undefined),\n            children,\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Layout/index.js\",\n                lineNumber: 10,\n                columnNumber: 6\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/components/Layout/index.js\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0xheW91dC9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUF5QjtBQUNZO0FBQ0E7QUFFckMsS0FBSyxDQUFDRyxNQUFNLElBQUksQ0FBQyxDQUFDQyxRQUFRLEVBQUMsQ0FBQyxHQUFLLENBQUM7SUFDaEMsTUFBTSw2RUFDSEMsQ0FBRzs7d0ZBQ0ZILHNEQUFNOzs7OztZQUNMRSxRQUFRO3dGQUNUSCxzREFBTTs7Ozs7Ozs7Ozs7QUFHWixDQUFDO0FBRUQsaUVBQWVFLE1BQU0sRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2F0dHJpYmUvLi9jb21wb25lbnRzL0xheW91dC9pbmRleC5qcz9kNDFmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBGb290ZXIgZnJvbSBcIi4uL0Zvb3Rlci9Gb290ZXJcIjtcbmltcG9ydCBIZWFkZXIgZnJvbSBcIi4uL0hlYWRlci9IZWFkZXJcIjtcblxuY29uc3QgTGF5b3V0ID0gKHsgY2hpbGRyZW4gfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgIDxIZWFkZXIvPlxuICAgICAge2NoaWxkcmVufVxuICAgICA8Rm9vdGVyIC8+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJGb290ZXIiLCJIZWFkZXIiLCJMYXlvdXQiLCJjaGlsZHJlbiIsImRpdiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Layout/index.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(561);
+/* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(137);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Header_Header__WEBPACK_IMPORTED_MODULE_3__]);
+_Header_Header__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+const Layout = ({ children  })=>{
+    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Header_Header__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
+            children,
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {})
+        ]
+    }));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ 510:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ \"./components/Layout/index.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Layout__WEBPACK_IMPORTED_MODULE_1__]);\n_components_Layout__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Layout__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/pages/_app.js\",\n                lineNumber: 9,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/albertjohanson/Documents/Shopify_Studio31/attribe-landing-page/pages/_app.js\",\n            lineNumber: 8,\n            columnNumber: 7\n        }, this)\n    }, void 0, false));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBeUM7QUFDWDtTQUVyQkMsS0FBSyxDQUFDLENBQUMsQ0FBQ0MsU0FBUyxHQUFFQyxTQUFTLEVBQUMsQ0FBQyxFQUFFLENBQUM7SUFFeEMsTUFBTTs4RkFFREgsMERBQU07a0dBQ0pFLFNBQVM7bUJBQUtDLFNBQVM7Ozs7Ozs7Ozs7OztBQUloQyxDQUFDO0FBRUQsaUVBQWVGLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hdHRyaWJlLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9MYXlvdXQnXG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcydcblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG5cbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPExheW91dD5cbiAgICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgICAgPC9MYXlvdXQ+XG4gICAgPC8+XG4gICkgXG59XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwXG4iXSwibmFtZXMiOlsiTGF5b3V0IiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(712);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Layout__WEBPACK_IMPORTED_MODULE_1__]);
+_components_Layout__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+function MyApp({ Component , pageProps  }) {
+    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+                ...pageProps
+            })
+        })
+    }));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "@heroicons/react/outline":
-/*!*******************************************!*\
-  !*** external "@heroicons/react/outline" ***!
-  \*******************************************/
+/***/ 768:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@heroicons/react/outline");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "@headlessui/react":
-/*!************************************!*\
-  !*** external "@headlessui/react" ***!
-  \************************************/
+/***/ 185:
 /***/ ((module) => {
 
-"use strict";
 module.exports = import("@headlessui/react");;
 
 /***/ })
@@ -117,7 +364,7 @@ module.exports = import("@headlessui/react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(510));
 module.exports = __webpack_exports__;
 
 })();
