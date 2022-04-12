@@ -43,7 +43,7 @@ export default function Example() {
                     <span className="block hero__text2">you can trust</span>
                   </h1>
                   <p className="mt-3 text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Increase your marketing signal and spend your budget more efficiently with attribe ROAS.
+                  Increase your marketing signal and spend your budget more efficiently with Wellspring.
                   </p>
                   <div className="mt-10 sm:mt-12">
                     <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
