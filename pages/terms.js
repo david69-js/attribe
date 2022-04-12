@@ -16,7 +16,7 @@
 */
 export default function Terms() {
   return (
-    <div className="wrapper__info" data-custom-class="body">
+    <div className="wrapper__info" data-custom-classname="body">
       <h1>
         <span
           className="mt-2 block text-3xl text-center leading-8 font-extrabold
@@ -74,7 +74,7 @@ export default function Terms() {
         }}
       >
         <strong>
-          <span data-custom-class="heading_1">TABLE OF CONTENTS</span>
+          <span data-custom-classname="heading_1">TABLE OF CONTENTS</span>
         </strong>
       </div>
       <div
@@ -96,11 +96,11 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#agreement"
         >
           <span style={{ "font-size": "15px" }}>
-            <span data-custom-class="body_text">1. AGREEMENT TO TERMS</span>
+            <span data-custom-classname="body_text">1. AGREEMENT TO TERMS</span>
           </span>
         </a>
       </div>
@@ -113,10 +113,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#ip"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             2. INTELLECTUAL PROPERTY RIGHTS
           </span>
         </a>
@@ -130,10 +130,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#userreps"
         >
-          <span data-custom-class="body_text">3. USER REPRESENTATIONS</span>
+          <span data-custom-classname="body_text">3. USER REPRESENTATIONS</span>
         </a>
       </div>
       <div
@@ -144,18 +144,18 @@ export default function Terms() {
           "line-height": "1.5",
         }}
       >
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#userreg"
         >
-          <span data-custom-class="body_text">4. USER REGISTRATION</span>
+          <span data-custom-classname="body_text">4. USER REGISTRATION</span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div
         align="center"
@@ -166,10 +166,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#payment"
         >
-          <span data-custom-class="body_text">5. FEES AND PAYMENT</span>
+          <span data-custom-classname="body_text">5. FEES AND PAYMENT</span>
         </a>
       </div>
       <div
@@ -180,18 +180,18 @@ export default function Terms() {
           "line-height": "1.5",
         }}
       >
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#freetrial"
         >
-          <span data-custom-class="body_text">6. FREE TRIAL</span>
+          <span data-custom-classname="body_text">6. FREE TRIAL</span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div
         align="center"
@@ -202,10 +202,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#cancel"
         >
-          <span data-custom-class="body_text">7. CANCELLATION</span>
+          <span data-custom-classname="body_text">7. CANCELLATION</span>
         </a>
       </div>
       <div
@@ -216,9 +216,9 @@ export default function Terms() {
           "line-height": "1.5",
         }}
       >
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div
         align="center"
@@ -229,10 +229,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#prohibited"
         >
-          <span data-custom-class="body_text">8. PROHIBITED ACTIVITIES</span>
+          <span data-custom-classname="body_text">8. PROHIBITED ACTIVITIES</span>
         </a>
       </div>
       <div
@@ -244,10 +244,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#ugc"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             9. USER GENERATED CONTRIBUTIONS
           </span>
         </a>
@@ -261,10 +261,10 @@ export default function Terms() {
         }}
       >
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#license"
         >
-          <span data-custom-class="body_text">10. CONTRIBUTION LICENSE</span>
+          <span data-custom-classname="body_text">10. CONTRIBUTION LICENSE</span>
         </a>
       </div>
       <div
@@ -275,9 +275,9 @@ export default function Terms() {
           "line-height": "1.5",
         }}
       >
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div
         align="center"
@@ -287,222 +287,222 @@ export default function Terms() {
           "line-height": "1.5",
         }}
       >
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#socialmedia"
         >
-          <span data-custom-class="body_text">11. SOCIAL MEDIA</span>
+          <span data-custom-classname="body_text">11. SOCIAL MEDIA</span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#submissions"
         >
-          <span data-custom-class="body_text">12. SUBMISSIONS</span>
+          <span data-custom-classname="body_text">12. SUBMISSIONS</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#thirdparty"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             13. THIRD-PARTY WEBSITES AND CONTENT
           </span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#usrights"
         >
-          <span data-custom-class="body_text">14. U.S. GOVERNMENT RIGHTS</span>
+          <span data-custom-classname="body_text">14. U.S. GOVERNMENT RIGHTS</span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#sitemanage"
         >
-          <span data-custom-class="body_text">15. SITE MANAGEMENT</span>
+          <span data-custom-classname="body_text">15. SITE MANAGEMENT</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#privacypolicy1"
         >
-          <span data-custom-class="body_text">16. PRIVACY POLICY</span>
+          <span data-custom-classname="body_text">16. PRIVACY POLICY</span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
-        <span data-custom-class="body_text">
-          <bdt className="block-component" />
-          <bdt className="block-component" />
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
+        <span data-custom-classname="body_text">
+          <bdo className="block-component" />
+          <bdo className="block-component" />
         </span>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#terms"
         >
-          <span data-custom-class="body_text">17. TERM AND TERMINATION</span>
+          <span data-custom-classname="body_text">17. TERM AND TERMINATION</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#modifications"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             18. MODIFICATIONS AND INTERRUPTIONS
           </span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#law"
         >
-          <span data-custom-class="body_text">19. GOVERNING LAW</span>
+          <span data-custom-classname="body_text">19. GOVERNING LAW</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#disputes"
         >
-          <span data-custom-class="body_text">20. DISPUTE RESOLUTION</span>
+          <span data-custom-classname="body_text">20. DISPUTE RESOLUTION</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#corrections"
         >
-          <span data-custom-class="body_text">21. CORRECTIONS</span>
+          <span data-custom-classname="body_text">21. CORRECTIONS</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#disclaimer"
         >
-          <span data-custom-class="body_text">22. DISCLAIMER</span>
+          <span data-custom-classname="body_text">22. DISCLAIMER</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#liability"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             23. LIMITATIONS OF LIABILITY
           </span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#indemnification"
         >
-          <span data-custom-class="body_text">24. INDEMNIFICATION</span>
+          <span data-custom-classname="body_text">24. INDEMNIFICATION</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#userdata"
         >
-          <span data-custom-class="body_text">25. USER DATA</span>
+          <span data-custom-classname="body_text">25. USER DATA</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#electronic"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             26. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
           </span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
-        <bdt className="block-component">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="block-component">
+          <span data-custom-classname="body_text" />
+        </bdo>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#california"
         >
-          <span data-custom-class="body_text">
+          <span data-custom-classname="body_text">
             27. CALIFORNIA USERS AND RESIDENTS
           </span>
         </a>
-        <bdt className="statement-end-if-in-editor">
-          <span data-custom-class="body_text" />
-        </bdt>
+        <bdo className="statement-end-if-in-editor">
+          <span data-custom-classname="body_text" />
+        </bdo>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#misc"
         >
-          <span data-custom-class="body_text">28. MISCELLANEOUS</span>
+          <span data-custom-classname="body_text">28. MISCELLANEOUS</span>
         </a>
       </div>
       <div style={{ "line-height": "1.5" }}>
         <a
-          data-custom-class="link"
+          data-custom-classname="link"
           href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#contact"
         >
-          <span data-custom-class="body_text">29. CONTACT US</span>
+          <span data-custom-classname="body_text">29. CONTACT US</span>
         </a>
       </div>
       <div
@@ -535,7 +535,7 @@ export default function Terms() {
       >
         <div
           className="MsoNormal"
-          data-custom-class="heading_1"
+          data-custom-classname="heading_1"
           id="agreement"
           style={{ "line-height": "1.5" }}
         >
@@ -560,7 +560,7 @@ export default function Terms() {
           <div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -574,13 +574,13 @@ export default function Terms() {
                 These Terms of Use constitute a legally binding agreement made
                 between you, whether personally or on behalf of an entity
                 (“you”) and
-                <bdt
+                <bdo
                   className="block-container question question-in-editor"
                   data-id="9d459c4e-c548-e5cb-7729-a11854 8965d2"
                   data-type="question"
                 >
-                  Wellspring, Inc.
-                </bdt>
+                  Attribe, Inc.
+                </bdo>
               </span>
               <span
                 style={{
@@ -592,9 +592,9 @@ export default function Terms() {
                   msoThemetint: 166,
                 }}
               >
-                <bdt className="block-component" />, doing business as{" "}
-                <bdt className="question">Wellspring Attribution</bdt>
-                <bdt className="statement-end-if-in-editor" />
+                <bdo className="block-component" />, doing business as{" "}
+                <bdo className="question">Wellspring Attribution</bdo>
+                <bdo className="statement-end-if-in-editor" />
                 &nbsp;
               </span>
               <span
@@ -606,14 +606,14 @@ export default function Terms() {
                 }}
               >
                 ("
-                <bdt className="block-component" />
-                <bdt className="question">
+                <bdo className="block-component" />
+                <bdo className="question">
                   <strong>Wellspring Attribution</strong>
-                </bdt>
-                <bdt className="else-block" />
+                </bdo>
+                <bdo className="else-block" />
                 ", “<strong>we</strong>”, “<strong>us</strong>”, or “
                 <strong>our</strong>”), concerning your access to and use of the{" "}
-                <bdt
+                <bdo
                   className="block-container question question-in-editor"
                   data-id="fdf30452-99b8-c68b-5cdf-34af764cd1fd"
                   data-type="question"
@@ -621,11 +621,11 @@ export default function Terms() {
                   <a
                     href="http://wellspringattribution.com/"
                     target="_blank"
-                    data-custom-class="link"
+                    data-custom-classname="link"
                   >
                     http://wellspringattribution.com
                   </a>
-                </bdt>
+                </bdo>
                 website as well as any other media form, media channel, mobile
                 website or mobile application related, linked, or otherwise
                 connected thereto (collectively, the “Site”).
@@ -659,9 +659,9 @@ export default function Terms() {
                         msoThemetint: 166,
                       }}
                     >
-                      <bdt className="question">
-                        <bdt className="block-component" />
-                      </bdt>
+                      <bdo className="question">
+                        <bdo className="block-component" />
+                      </bdo>
                       <span
                         style={{
                           fontSize: "11.0pt",
@@ -672,11 +672,11 @@ export default function Terms() {
                           msoThemetint: 166,
                         }}
                       >
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
                       </span>
-                      We are registered in <bdt className="block-component" />
-                      <bdt className="block-component" />
-                      <bdt className="block-component" />{" "}
+                      We are registered in <bdo className="block-component" />
+                      <bdo className="block-component" />
+                      <bdo className="block-component" />{" "}
                       <span
                         style={{
                           fontSize: "11.0pt",
@@ -697,33 +697,33 @@ export default function Terms() {
                             msoThemetint: 166,
                           }}
                         >
-                          <bdt className="question">California</bdt>,
-                          <bdt className="question">United States</bdt>
+                          <bdo className="question">California</bdo>,
+                          <bdo className="question">United States</bdo>
                         </span>
                       </span>
-                      <bdt className="statement-end-if-in-editor" />
-                      <bdt className="block-component" />
+                      <bdo className="statement-end-if-in-editor" />
+                      <bdo className="block-component" />
                     </span>
                   </span>
                 </span>
               </span>
               and have our registered office at{" "}
-              <bdt className="question">3802 The Strand</bdt>
-              <bdt className="block-component" />,{" "}
-              <bdt className="question">Manhattan Beach</bdt>
+              <bdo className="question">3802 The Strand</bdo>
+              <bdo className="block-component" />,{" "}
+              <bdo className="question">Manhattan Beach</bdo>
               <span style={{ fontSize: 15 }}>
-                <span data-custom-class="body_text">
+                <span data-custom-classname="body_text">
                   <span style={{ fontSize: 15 }}>
-                    <span data-custom-class="body_text">
+                    <span data-custom-classname="body_text">
                       <span style={{ color: "rgb( 89,  89,   89)" }}>
-                        <bdt className="block-component" />
-                        <bdt className="block-component" />,{" "}
-                        <bdt className="question">CA</bdt>
-                        <bdt className="statement-end-if-in-editor" />
-                        <bdt className="block-component" />
-                        <bdt className="block-component" />
-                        <bdt className="question">90266</bdt>
-                        <bdt className="statement-end-if-in-editor" />
+                        <bdo className="block-component" />
+                        <bdo className="block-component" />,{" "}
+                        <bdo className="question">CA</bdo>
+                        <bdo className="statement-end-if-in-editor" />
+                        <bdo className="block-component" />
+                        <bdo className="block-component" />
+                        <bdo className="question">90266</bdo>
+                        <bdo className="statement-end-if-in-editor" />
                       </span>
                     </span>
                   </span>
@@ -749,30 +749,30 @@ export default function Terms() {
                     msoThemetint: 166,
                   }}
                 >
-                  <bdt className="statement-end-if-in-editor">.</bdt>
-                  <bdt className="else-block" />
+                  <bdo className="statement-end-if-in-editor">.</bdo>
+                  <bdo className="else-block" />
                 </span>
               </span>
-              <bdt className="statement-end-if-in-editor" />
-              <bdt className="block-component" /> You agree that by accessing
+              <bdo className="statement-end-if-in-editor" />
+              <bdo className="block-component" /> You agree that by accessing
               the Site, you have read, understood, and agree to be bound by all
               of these Terms of Use
-              <bdt
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="c4a4c609-d962-97d8-9b96-d3492402adad"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="separate_agreement_option"
                     data-type="statement"
-                  ></bdt>
-                </bdt>
+                  ></bdo>
+                </bdo>
                 . IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU
                 ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU
                 MUST&nbsp;DISCONTINUE USE IMMEDIATELY.
-              </bdt>
+              </bdo>
             </div>
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
@@ -781,7 +781,7 @@ export default function Terms() {
           <div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span style={{ fontSize: 15 }}>
@@ -796,9 +796,9 @@ export default function Terms() {
                   posted on the Site from time to time are hereby expressly
                   incorporated herein by reference. We reserve the right, in our
                   sole discretion, to make changes or modifications to these
-                  Terms of Use <bdt className="block-component" />
+                  Terms of Use <bdo className="block-component" />
                   from time to time
-                  <bdt className="else-block" />. We will alert you about any
+                  <bdo className="else-block" />. We will alert you about any
                   changes by updating the “Last updated” date of these Terms of
                   Use, and you waive any right to receive specific notice of
                   each such change. Please ensure that you check the applicable
@@ -817,7 +817,7 @@ export default function Terms() {
           <div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -841,7 +841,7 @@ export default function Terms() {
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -854,20 +854,20 @@ export default function Terms() {
                   msoThemetint: 166,
                 }}
               >
-                <bdt className="block-component" />
-                <bdt className="block-component" />
+                <bdo className="block-component" />
+                <bdo className="block-component" />
               </span>
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: 1 }}
             >
               <br />
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -886,36 +886,36 @@ export default function Terms() {
                 etc.), so if your interactions would be subjected to such laws,
                 you may not use this Site. You may not use the Site in a way
                 that would violate the Gramm-Leach-Bliley Act (GLBA).
-                <bdt className="block-component" />
-                <bdt className="statement-end-if-in-editor" />
+                <bdo className="block-component" />
+                <bdo className="statement-end-if-in-editor" />
               </span>
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: 1 }}
             >
               <br />
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
-              <bdt
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="a2595956-7028-dbe5-123e-d3d3a93ed076"
               >
-                <bdt data-type="conditional-block">
+                <bdo data-type="conditional-block">
                   <span style={{ fontSize: 15 }}>
-                    <bdt
+                    <bdo
                       className="block-component"
                       data-record-question-key="user_o18_option"
                       data-type="statement"
                     />
                   </span>
-                  <bdt data-type="body">
+                  <bdo data-type="body">
                     <span
                       style={{
                         fontSize: 15,
@@ -950,16 +950,16 @@ export default function Terms() {
                     >
                       register for the Site.
                     </span>
-                  </bdt>
-                </bdt>
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
+                  </bdo>
+                </bdo>
+                <bdo data-type="conditional-block">
+                  <bdo data-type="body">
                     <span style={{ color: "rgb( 89,  89,  89)", fontSize: 15 }}>
-                      <bdt className="block-component" />
+                      <bdo className="block-component" />
                     </span>
-                  </bdt>
-                </bdt>
-              </bdt>
+                  </bdo>
+                </bdo>
+              </bdo>
             </div>
           </div>
           <div>
@@ -971,7 +971,7 @@ export default function Terms() {
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="ip"
               style={{ lineHeight: "1.5" }}
             >
@@ -995,7 +995,7 @@ export default function Terms() {
           <div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -1032,7 +1032,7 @@ export default function Terms() {
           <div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -1061,7 +1061,7 @@ export default function Terms() {
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="userreps"
               style={{ lineHeight: "1.5" }}
             >
@@ -1084,7 +1084,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span
@@ -1097,20 +1097,20 @@ export default function Terms() {
             >
               By using the Site, you represent and warrant that:
             </span>
-            <bdt
+            <bdo
               className="block-container if"
               data-type="if"
               id="d2d82ca8-275f-3f86-8149-8a5ef8054af6"
             >
-              <bdt data-type="conditional-block">
-                <bdt
+              <bdo data-type="conditional-block">
+                <bdo
                   className="block-component"
                   data-record-question-key="user_account_option"
                   data-type="statement"
                 >
                   <span style={{ fontSize: 15 }} />
-                </bdt>
-                <bdt data-type="body">
+                </bdo>
+                <bdo data-type="body">
                   <span
                     style={{ color: "rgb( 89,  89,  89)", fontSize: "11pt" }}
                   >
@@ -1143,13 +1143,13 @@ export default function Terms() {
                   <span style={{ color: "rgb( 89,  89,   89)", fontSize: 15 }}>
                     as necessary;
                   </span>
-                </bdt>
-              </bdt>
-              <bdt className="statement-end-if-in-editor" data-type="close">
+                </bdo>
+              </bdo>
+              <bdo className="statement-end-if-in-editor" data-type="close">
                 <span style={{ fontSize: 15 }} />
-              </bdt>
+              </bdo>
               &nbsp;
-            </bdt>
+            </bdo>
             <span style={{ color: "rgb( 89,  89,  89)", fontSize: 15 }}>(</span>
             <span style={{ fontSize: 15 }}>
               <span style={{ color: "rgb( 89,  89,  89)" }}>3</span>
@@ -1157,7 +1157,7 @@ export default function Terms() {
             <span style={{ color: "rgb( 89,  89,  89)", fontSize: 15 }}>
               ) you have the legal capacity and you agree to comply with these
               Terms of Use;
-              <bdt className="block-component" />
+              <bdo className="block-component" />
             </span>
             <span style={{ color: "rgb( 89,  89,  89)", fontSize: 15 }}>(</span>
             <span style={{ fontSize: 15 }}>
@@ -1165,19 +1165,19 @@ export default function Terms() {
             </span>
             <span style={{ color: "rgb( 89,  89,  89)", fontSize: 15 }}>
               ) you are not a minor in the jurisdiction in which you reside
-              <bdt
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="76948fab-ec9e-266a-bb91-94  8929c050c9"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="user_o18_option"
                     data-type="statement"
                   />
-                </bdt>
-              </bdt>
+                </bdo>
+              </bdo>
             </span>
             <span style={{ color: "rgb( 89,  89,  89)", fontSize: "11pt" }}>
               &nbsp;
@@ -1213,7 +1213,7 @@ export default function Terms() {
           <div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -1247,21 +1247,21 @@ export default function Terms() {
             className="MsoNormal"
             style={{ textAlign: "justify", lineHeight: 1 }}
           >
-            <bdt
+            <bdo
               className="block-container if"
               data-type="if"
               id="d13abc62-cc6f-e059-7fd6-cb6208085aa7"
             >
-              <bdt data-type="conditional-block">
-                <bdt
+              <bdo data-type="conditional-block">
+                <bdo
                   className="block-component"
                   data-record-question-key="user_account_option"
                   data-type="statement"
                 />
-                <bdt data-type="body">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="heading_1"
+                    data-custom-classname="heading_1"
                     id="userreg"
                     style={{ lineHeight: "1.5", textAlign: "left" }}
                   >
@@ -1277,9 +1277,9 @@ export default function Terms() {
                       </span>
                     </strong>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div
             className="MsoNormal"
@@ -1291,10 +1291,10 @@ export default function Terms() {
             className="MsoNormal"
             style={{ textAlign: "justify", lineHeight: 1 }}
           >
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
-                  <div className="MsoNormal" data-custom-class="body_text">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
+                  <div className="MsoNormal" data-custom-classname="body_text">
                     <span
                       style={{
                         fontSize: 15,
@@ -1312,9 +1312,9 @@ export default function Terms() {
                       objectionable.
                     </span>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div
             className="MsoNormal"
@@ -1332,13 +1332,13 @@ export default function Terms() {
             className="MsoNormal"
             style={{ textAlign: "justify", lineHeight: "1.5" }}
           >
-            <bdt className="block-container if" data-type="if">
-              <bdt className="statement-end-if-in-editor" data-type="close" />
-            </bdt>
+            <bdo className="block-container if" data-type="if">
+              <bdo className="statement-end-if-in-editor" data-type="close" />
+            </bdo>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="payment"
             style={{ lineHeight: "1.5" }}
           >
@@ -1371,7 +1371,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ color: "rgb( 89,  89,  89)", fontSize: 15 }}>
@@ -1385,14 +1385,14 @@ export default function Terms() {
             <div className="MsoNormal" style={{ lineHeight: "17.25px" }}>
               <div
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: 1, textAlign: "left" }}
               >
                 <br />
               </div>
               <div
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{
                   marginLeft: "46.9pt",
                   textIndent: "-18.55pt",
@@ -1407,19 +1407,19 @@ export default function Terms() {
                     color: "rgb(  89,   89,   89)",
                   }}
                 >
-                  <bdt
+                  <bdo
                     className="block-container forloop"
                     data-type="forloop"
                     id="a6e21b8e-b955-c546-15dd-bb6eda2fe88a"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo
                         className="forloop-component"
                         data-record-question-key="payment_list"
                         data-type="statement"
-                      ></bdt>
-                    </bdt>
-                  </bdt>
+                      ></bdo>
+                    </bdo>
+                  </bdo>
                 </span>
               </div>
             </div>
@@ -1450,7 +1450,7 @@ export default function Terms() {
             >
               <div
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span
@@ -1467,7 +1467,7 @@ export default function Terms() {
                   via the Site. Sales tax will be added to the price of
                   purchases as deemed required by us. We may change prices at
                   any time. All payments shall be in{" "}
-                  <bdt className="question">__________</bdt>.
+                  <bdo className="question">__________</bdo>.
                 </span>
               </div>
             </span>
@@ -1489,7 +1489,7 @@ export default function Terms() {
               </div>
               <div
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span
@@ -1503,53 +1503,53 @@ export default function Terms() {
                   effect for your purchases, and you authorize us to charge your
                   chosen payment provider for any such amounts upon making your
                   purchase.{" "}
-                  <bdt
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo
                         className="block-component"
                         data-record-question-key="recurring_charge_option"
                         data-type="statement"
                       />
-                    </bdt>
-                  </bdt>
-                  <bdt
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">If&nbsp;</bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">If&nbsp;</bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">
                         your purchase is subject to recurring charges, then you
                         consent to our charging your payment method on a
                         recurring basis without requiring your prior approval
                         for each recurring charge, until you notify us of your
                         cancellation.
-                      </bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                      </bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="2955e4e9-b2fc-b1ce-6d2e-99ed4a0c390d"
                   >
-                    <bdt
+                    <bdo
                       className="statement-end-if-in-editor"
                       data-type="close"
                     />
-                  </bdt>
+                  </bdo>
                 </span>
               </div>
               <br />
@@ -1564,7 +1564,7 @@ export default function Terms() {
             >
               <div
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span
@@ -1600,21 +1600,21 @@ export default function Terms() {
             >
               <a name="_drzjqilz2ujm" />
             </div>
-            <bdt
+            <bdo
               className="block-container if"
               data-type="if"
               id="4380167d-5abe-b98f-f3 89-f707429e6c52"
             >
-              <bdt data-type="conditional-block">
-                <bdt
+              <bdo data-type="conditional-block">
+                <bdo
                   className="block-component"
                   data-record-question-key="free_trial_option"
                   data-type="statement"
                 />
-                <bdt data-type="body">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="heading_1"
+                    data-custom-classname="heading_1"
                     id="freetrial"
                     style={{ textAlign: "left", lineHeight: "1.5" }}
                   >
@@ -1630,9 +1630,9 @@ export default function Terms() {
                       </span>
                     </strong>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div
             className="MsoNormal"
@@ -1644,12 +1644,12 @@ export default function Terms() {
             className="MsoNormal"
             style={{ textAlign: "justify", lineHeight: 1 }}
           >
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5", textAlign: "left" }}
                   >
                     <span
@@ -1660,20 +1660,20 @@ export default function Terms() {
                       }}
                     >
                       We offer a{" "}
-                      <bdt
+                      <bdo
                         className="block-container
                     question question-in-editor"
                         data-id="3f053c87-320c-4c3a-2d73-c199bf826436"
                         data-type="question"
                       >
                         30
-                      </bdt>
+                      </bdo>
                       -day free trial to new users who register with the Site.{" "}
-                      <bdt className="block-component" />
-                      <bdt className="question">
+                      <bdo className="block-component" />
+                      <bdo className="question">
                         The account will not be charged and the subscription
                         will be suspended until upgraded to a paid version
-                      </bdt>
+                      </bdo>
                     </span>
                     <span
                       style={{
@@ -1691,14 +1691,14 @@ export default function Terms() {
                           color: "rgb(  89,   89,   89)",
                         }}
                       >
-                        <bdt className="else-block" />
+                        <bdo className="else-block" />
                       </span>
                       at the end of the free trial.
                     </span>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div
             className="MsoNormal"
@@ -1716,14 +1716,14 @@ export default function Terms() {
             className="MsoNormal"
             style={{ textAlign: "justify", lineHeight: "1.5" }}
           >
-            <bdt className="block-container if" data-type="if">
-              <bdt className="statement-end-if-in-editor" data-type="close">
+            <bdo className="block-container if" data-type="if">
+              <bdo className="statement-end-if-in-editor" data-type="close">
                 <span style={{ fontSize: 15 }} />
-              </bdt>
-            </bdt>
+              </bdo>
+            </bdo>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="cancel"
             >
               <a name="_e993diqrk0qx" />
@@ -1752,7 +1752,7 @@ export default function Terms() {
           >
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5", textAlign: "left" }}
             >
               <span
@@ -1762,49 +1762,49 @@ export default function Terms() {
                   color: "rgb(  89,   89, 89)",
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="cef55cf6-3a65-8031-d0c3-cffe36e64f10"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="return_option"
                       data-type="statement"
                     />
-                  </bdt>
-                </bdt>
-                <bdt
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="cef55cf6-3a65-8031-d0c3-cffe36e64f10"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">
                       All purchases are non-refundable.
-                    </bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                    </bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="cef55cf6-3a65-8031-d0c3-cffe36e64f10"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">&nbsp;</bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">&nbsp;</bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="cef55cf6-3a65-8031-d0c3-cffe36e64f10"
                 >
-                  <bdt
+                  <bdo
                     className="statement-end-if-in-editor"
                     data-type="close"
                   />
-                </bdt>
+                </bdo>
                 You can cancel your subscription at any time
               </span>
               <span
@@ -1825,28 +1825,28 @@ export default function Terms() {
                   color: "rgb(  89,   89, 89)",
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="1a40a488-252c-f087-02cc-5e0de451aa88"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="cancel_how"
                       data-type="statement"
                     />
-                  </bdt>
-                </bdt>
-                <bdt
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="1a40a488-252c-f087-02cc-5e0de451aa88"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">by logging</bdt>
-                  </bdt>
-                </bdt>
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">by logging</bdo>
+                  </bdo>
+                </bdo>
               </span>
               <span
                 style={{
@@ -1857,15 +1857,15 @@ export default function Terms() {
                   msoThemetint: 166,
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="1a40a488-252c-f087-02cc-5e0de451aa88"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">&nbsp;</bdt>
-                  </bdt>
-                </bdt>
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">&nbsp;</bdo>
+                  </bdo>
+                </bdo>
               </span>
               <span
                 style={{
@@ -1874,30 +1874,30 @@ export default function Terms() {
                   color: "rgb(  89,   89, 89)",
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="1a40a488-252c-f087-02cc-5e0de451aa88"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">into your account</bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">into your account</bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="1a40a488-252c-f087-02cc-5e0de451aa88"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="null"
                       data-type="statement"
                     />
-                  </bdt>
+                  </bdo>
                   . Your cancellation will take effect at the end of the current
                   paid term.
-                </bdt>
+                </bdo>
               </span>
             </div>
           </div>
@@ -1913,7 +1913,7 @@ export default function Terms() {
           >
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5", textAlign: "left" }}
             >
               <span
@@ -1924,14 +1924,14 @@ export default function Terms() {
                 }}
               >
                 If you are unsatisfied with our services, please email us at{" "}
-                <bdt
+                <bdo
                   className="block-container question question-in-editor"
                   data-id="7c40698b-5cc8-bb58-245d-2fbd1b57dfba"
                   data-type="question"
                 >
                   ryan@wellspringattribution.com
-                </bdt>
-                <bdt className="block-component" /> or call us at
+                </bdo>
+                <bdo className="block-component" /> or call us at
               </span>
               <span
                 style={{
@@ -1951,13 +1951,13 @@ export default function Terms() {
                   color: "rgb(  89,   89, 89)",
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container question question-in-editor"
                   data-id="7d27e26e-2e8b-6d22-d41d-b468e8115f39"
                   data-type="question"
                 >
                   6508234349
-                </bdt>
+                </bdo>
               </span>
               <span
                 style={{
@@ -1991,7 +1991,7 @@ export default function Terms() {
                         color: "rgb(  89,   89,   89)",
                       }}
                     >
-                      <bdt className="statement-end-if-in-editor" />
+                      <bdo className="statement-end-if-in-editor" />
                     </span>
                   </span>
                 </span>
@@ -2005,24 +2005,24 @@ export default function Terms() {
               <br />
             </div>
             <div className="MsoNormal" style={{ lineHeight: 1 }}>
-              <bdt
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="b671a946-ab46-9fff-9cee-e88149335e8e"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="software_option"
                     data-type="statement"
                   />
-                </bdt>
-              </bdt>
+                </bdo>
+              </bdo>
             </div>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="prohibited"
             style={{ lineHeight: "1.5", textAlign: "left" }}
           >
@@ -2044,7 +2044,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span
@@ -2070,7 +2070,7 @@ export default function Terms() {
           >
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5", textAlign: "left" }}
             >
               <span
@@ -2086,7 +2086,7 @@ export default function Terms() {
             <ul>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span
@@ -2128,7 +2128,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2199,7 +2199,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2272,7 +2272,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2342,7 +2342,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2412,7 +2412,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2482,7 +2482,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2552,7 +2552,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2622,7 +2622,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2698,7 +2698,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2770,7 +2770,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2840,7 +2840,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2910,7 +2910,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -2986,7 +2986,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3057,7 +3057,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3128,7 +3128,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3199,7 +3199,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3270,7 +3270,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3342,7 +3342,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3416,7 +3416,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3486,7 +3486,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3559,7 +3559,7 @@ export default function Terms() {
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span style={{ fontSize: 15 }}>
@@ -3634,12 +3634,12 @@ export default function Terms() {
                     color: "rgb( 89,  89,  89)",
                   }}
                 >
-                  <bdt className="forloop-component" />
+                  <bdo className="forloop-component" />
                 </span>
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span
@@ -3649,10 +3649,10 @@ export default function Terms() {
                     color: "rgb(  89,   89,   89)",
                   }}
                 >
-                  <bdt className="question">
+                  <bdo className="question">
                     Use the Site to advertise or offer to sell goods and
                     services.
-                  </bdt>
+                  </bdo>
                 </span>
                 <span
                   style={{
@@ -3661,12 +3661,12 @@ export default function Terms() {
                     color: "rgb(  89,   89,   89)",
                   }}
                 >
-                  <bdt className="forloop-component" />
+                  <bdo className="forloop-component" />
                 </span>
               </li>
               <li
                 className="MsoNormal"
-                data-custom-class="body_text"
+                data-custom-classname="body_text"
                 style={{ lineHeight: "1.5", textAlign: "left" }}
               >
                 <span
@@ -3676,9 +3676,9 @@ export default function Terms() {
                     color: "rgb(  89,   89,   89)",
                   }}
                 >
-                  <bdt className="question">
+                  <bdo className="question">
                     Sell or otherwise transfer your profile.
-                  </bdt>
+                  </bdo>
                 </span>
                 <span
                   style={{
@@ -3687,19 +3687,19 @@ export default function Terms() {
                     color: "rgb(  89,   89,   89)",
                   }}
                 >
-                  <bdt className="forloop-component" />
+                  <bdo className="forloop-component" />
                 </span>
               </li>
             </ul>
           </div>
 
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="heading_1"
+                    data-custom-classname="heading_1"
                     id="ugc"
                     style={{ lineHeight: "1.5" }}
                   >
@@ -3715,24 +3715,24 @@ export default function Terms() {
                       </span>
                     </strong>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
                     style={{ textAlign: "justify", lineHeight: "115%" }}
                   >
                     <div
                       className="MsoNormal"
-                      data-custom-class="body_text"
+                      data-custom-classname="body_text"
                       style={{ lineHeight: "1.5", textAlign: "left" }}
                     >
                       <span
@@ -3742,19 +3742,19 @@ export default function Terms() {
                           color: "rgb(89, 89, 89)",
                         }}
                       >
-                        <bdt
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="24327c5d-a34f-f7e7-88f1-65a2f788484f"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt
+                          <bdo data-type="conditional-block">
+                            <bdo
                               className="block-component"
                               data-record-question-key="user_post_content_option"
                               data-type="statement"
                             >
                               <span style={{ fontSize: 15 }} />
-                            </bdt>
+                            </bdo>
                             The Site does not offer users to submit or post
                             content. We may provide you with the opportunity to
                             create, submit, post, display, transmit, perform,
@@ -3770,24 +3770,24 @@ export default function Terms() {
                             Privacy Policy. When you create or make available
                             any Contributions, you thereby represent and warrant
                             that:
-                            <bdt
+                            <bdo
                               className="block-container if"
                               data-type="if"
                               id="b671a946-ab46-9fff-9cee-e88149335e8e"
                             >
-                              <bdt
+                              <bdo
                                 className="statement-end-if-in-editor"
                                 data-type="close"
                               />
-                            </bdt>
-                          </bdt>
-                        </bdt>
+                            </bdo>
+                          </bdo>
+                        </bdo>
                       </span>
                     </div>
                     <ul>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3804,7 +3804,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3820,7 +3820,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3837,7 +3837,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89,89)" }}>
@@ -3849,7 +3849,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89,89)" }}>
@@ -3863,7 +3863,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3877,7 +3877,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3889,7 +3889,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89,89)" }}>
@@ -3904,7 +3904,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3917,7 +3917,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3930,7 +3930,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89,89)" }}>
@@ -3944,7 +3944,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3959,7 +3959,7 @@ export default function Terms() {
                       </li>
                       <li
                         className="MsoNormal"
-                        data-custom-class="body_text"
+                        data-custom-classname="body_text"
                         style={{ lineHeight: "1.5", textAlign: "left" }}
                       >
                         <span style={{ color: "rgb(89, 89, 89)" }}>
@@ -3973,7 +3973,7 @@ export default function Terms() {
                     </ul>
                     <div
                       className="MsoNormal"
-                      data-custom-class="body_text"
+                      data-custom-classname="body_text"
                       style={{ lineHeight: "1.5", textAlign: "left" }}
                     >
                       <span
@@ -3990,9 +3990,9 @@ export default function Terms() {
                       </span>
                     </div>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div>
             <br />
@@ -4001,12 +4001,12 @@ export default function Terms() {
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="heading_1"
+                    data-custom-classname="heading_1"
                     id="license"
                     style={{ lineHeight: "1.5" }}
                   >
@@ -4022,20 +4022,20 @@ export default function Terms() {
                       </span>
                     </strong>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5" }}
                   >
                     <span
@@ -4046,24 +4046,24 @@ export default function Terms() {
                         color: "rgb(89, 89,89)",
                       }}
                     >
-                      <bdt
+                      <bdo
                         className="block-container if"
                         data-type="if"
                         id="a088ddfb-d8c1-9e58-6f21-958c3f4f0709"
                       >
-                        <bdt data-type="conditional-block">
-                          <bdt
+                        <bdo data-type="conditional-block">
+                          <bdo
                             className="block-component"
                             data-record-question-key="user_post_content_option"
                             data-type="statement"
                           />
-                        </bdt>
-                      </bdt>
+                        </bdo>
+                      </bdo>
                     </span>
                   </div>
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5" }}
                   >
                     <span
@@ -4085,7 +4085,7 @@ export default function Terms() {
                   </div>
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5" }}
                   >
                     <span
@@ -4106,7 +4106,7 @@ export default function Terms() {
                   </div>
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5" }}
                   >
                     <span
@@ -4135,56 +4135,56 @@ export default function Terms() {
                   <div style={{ textAlign: "left", lineHeight: "1.5" }}>
                     <br />
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
 
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt className="statement-end-if-in-editor" data-type="close">
+            <bdo className="block-container if" data-type="if">
+              <bdo className="statement-end-if-in-editor" data-type="close">
                 <span style={{ fontSize: 15 }} />
-              </bdt>
-            </bdt>
-            <bdt
+              </bdo>
+            </bdo>
+            <bdo
               className="block-container if"
               data-type="if"
               id="a378120a-96b1-6fa3-279f-63d5b96341d3"
             >
-              <bdt data-type="conditional-block">
-                <bdt
+              <bdo data-type="conditional-block">
+                <bdo
                   className="block-component"
                   data-record-question-key="review_option"
                   data-type="statement"
                 />
-              </bdt>
-              <bdt
+              </bdo>
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="c954892f-02b9-c743-d1e8-faf0d59a4b70"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="mobile_app_option"
                     data-type="statement"
-                  ></bdt>
-                </bdt>
-                <bdt
+                  ></bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="e9981d4e-3a93-85dd-654b-7ecdf4bfe7d2"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="socialnetwork_link_option"
                       data-type="statement"
                     />
-                    <bdt data-type="body">
+                    <bdo data-type="body">
                       <div
                         className="MsoNormal"
-                        data-custom-class="heading_1"
+                        data-custom-classname="heading_1"
                         id="socialmedia"
                         style={{ lineHeight: "1.5" }}
                       >
@@ -4200,22 +4200,22 @@ export default function Terms() {
                           </span>
                         </strong>
                       </div>
-                    </bdt>
-                  </bdt>
-                </bdt>
-              </bdt>
-            </bdt>
+                    </bdo>
+                  </bdo>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5" }}
                   >
                     <span
@@ -4284,9 +4284,9 @@ export default function Terms() {
                       picture that become associated with your account.
                     </span>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <br />
@@ -4295,14 +4295,14 @@ export default function Terms() {
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt className="statement-end-if-in-editor" data-type="close">
+            <bdo className="block-container if" data-type="if">
+              <bdo className="statement-end-if-in-editor" data-type="close">
                 <span style={{ fontSize: 15 }} />
-              </bdt>
-            </bdt>
+              </bdo>
+            </bdo>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="submissions"
               style={{ lineHeight: "1.5" }}
             >
@@ -4326,7 +4326,7 @@ export default function Terms() {
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -4359,21 +4359,21 @@ export default function Terms() {
               <br />
             </div>
             <div className="MsoNormal" style={{ lineHeight: 1 }}>
-              <bdt
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="36ce5a69-4560-4947-dc72-46e53e2d562a"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="3rd_party_option"
                     data-type="statement"
-                  ></bdt>
-                  <bdt data-type="body">
+                  ></bdo>
+                  <bdo data-type="body">
                     <div
                       className="MsoNormal"
-                      data-custom-class="heading_1"
+                      data-custom-classname="heading_1"
                       id="thirdparty"
                       style={{ textAlign: "left", lineHeight: "1.5" }}
                     >
@@ -4389,18 +4389,18 @@ export default function Terms() {
                         </span>
                       </strong>
                     </div>
-                  </bdt>
-                </bdt>
-              </bdt>
+                  </bdo>
+                </bdo>
+              </bdo>
             </div>
             <div className="MsoNormal" style={{ lineHeight: 1 }}>
               <br />
             </div>
             <div className="MsoNormal" style={{ lineHeight: 1 }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
-                    <div className="MsoNormal" data-custom-class="body_text">
+              <bdo className="block-container if" data-type="if">
+                <bdo data-type="conditional-block">
+                  <bdo data-type="body">
+                    <div className="MsoNormal" data-custom-classname="body_text">
                       <span
                         style={{
                           fontSize: 15,
@@ -4450,9 +4450,9 @@ export default function Terms() {
                         Third-Party Websites.
                       </span>
                     </div>
-                  </bdt>
-                </bdt>
-              </bdt>
+                  </bdo>
+                </bdo>
+              </bdo>
             </div>
             <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
               <br />
@@ -4461,26 +4461,26 @@ export default function Terms() {
               <br />
             </div>
             <div className="MsoNormal" style={{ lineHeight: 1 }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt className="statement-end-if-in-editor" data-type="close">
+              <bdo className="block-container if" data-type="if">
+                <bdo className="statement-end-if-in-editor" data-type="close">
                   <span style={{ fontSize: 15 }} />
-                </bdt>
-              </bdt>
-              <bdt
+                </bdo>
+              </bdo>
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="14038561-dad7-be9d-370f-f8aa487b2570"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="advertiser_option"
                     data-type="statement"
                   >
-                    <bdt className="block-component" />
-                  </bdt>
-                </bdt>
-              </bdt>
+                    <bdo className="block-component" />
+                  </bdo>
+                </bdo>
+              </bdo>
             </div>
           </div>
           <div
@@ -4489,7 +4489,7 @@ export default function Terms() {
           >
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="usrights"
               style={{ textAlign: "left", lineHeight: "1.5" }}
             >
@@ -4518,7 +4518,7 @@ export default function Terms() {
           >
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5", textAlign: "left" }}
             >
               <span
@@ -4612,21 +4612,21 @@ export default function Terms() {
                   msoThemetint: 166,
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="14038561-dad7-be9d-370f-f8aa487b2570"
                 >
-                  <bdt className="statement-end-if-in-editor" data-type="close">
+                  <bdo className="statement-end-if-in-editor" data-type="close">
                     <span style={{ fontSize: 15 }} />
-                  </bdt>
-                </bdt>
+                  </bdo>
+                </bdo>
               </span>
             </div>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="sitemanage"
             style={{ lineHeight: "1.5" }}
           >
@@ -4649,7 +4649,7 @@ export default function Terms() {
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -4688,17 +4688,17 @@ export default function Terms() {
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo
                   className="block-component"
                   data-record-question-key="privacy_policy_option"
                   data-type="statement"
                 />
-                <bdt data-type="body">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="heading_1"
+                    data-custom-classname="heading_1"
                     id="privacypolicy1"
                     style={{ lineHeight: "1.5" }}
                   >
@@ -4714,20 +4714,20 @@ export default function Terms() {
                       </span>
                     </strong>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+            <bdo className="block-container if" data-type="if">
+              <bdo data-type="conditional-block">
+                <bdo data-type="body">
                   <div
                     className="MsoNormal"
-                    data-custom-class="body_text"
+                    data-custom-classname="body_text"
                     style={{ lineHeight: "1.5" }}
                   >
                     <span
@@ -4741,7 +4741,7 @@ export default function Terms() {
                       We care about data privacy and security. Please review our
                       Privacy Policy:{" "}
                       <strong>
-                        <bdt
+                        <bdo
                           className="block-container
                             question question-in-editor"
                           data-id="d10c7fd7-0685-12ac-c717-cbc45ff916d1"
@@ -4750,18 +4750,18 @@ export default function Terms() {
                           <a
                             href="http://wellspringattribution.com/privacy-policy"
                             target="_blank"
-                            data-custom-class="link"
+                            data-custom-classname="link"
                           >
                             http://wellspringattribution.com/privacy-policy
                           </a>
-                        </bdt>
+                        </bdo>
                       </strong>
                       . By using the Site, you agree to be bound by our Privacy
                       Policy, which is incorporated into these Terms of Use.
                       Please be advised the Site is hosted in{" "}
-                      <bdt className="block-component" />
-                      the <bdt className="question">United States</bdt>
-                      <bdt className="block-component" />. If you access the
+                      <bdo className="block-component" />
+                      the <bdo className="question">United States</bdo>
+                      <bdo className="block-component" />. If you access the
                       Site from any other region of the world with laws or other
                       requirements governing personal data collection, use, or
                       disclosure that differ from applicable laws in{" "}
@@ -4773,10 +4773,10 @@ export default function Terms() {
                           color: "rgb(89, 89, 89)",
                         }}
                       >
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
                         the
-                        <bdt className="question">United States</bdt>
-                        <bdt className="block-component" />
+                        <bdo className="question">United States</bdo>
+                        <bdo className="block-component" />
                       </span>
                       , then through your continued use of the Site,
                     </span>
@@ -4809,9 +4809,9 @@ export default function Terms() {
                           color: "rgb(89, 89, 89)",
                         }}
                       >
-                        <bdt className="block-component" />
-                        the <bdt className="question">United States</bdt>
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
+                        the <bdo className="question">United States</bdo>
+                        <bdo className="block-component" />
                       </span>
                       , and you agree to have your data transferred to and
                       processed in{" "}
@@ -4823,19 +4823,19 @@ export default function Terms() {
                           color: "rgb(89, 89, 89)",
                         }}
                       >
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
                         the
-                        <bdt className="question">United States</bdt>
-                        <bdt className="block-component" />
+                        <bdo className="question">United States</bdo>
+                        <bdo className="block-component" />
                       </span>
-                      . <bdt className="block-component" />
-                      <bdt
+                      . <bdo className="block-component" />
+                      <bdo
                         className="block-container if"
                         data-type="if"
                         id="547bb7bb-ecf2-84b9-1cbb-a861dc3e14e7"
                       >
-                        <bdt data-type="conditional-block">
-                          <bdt
+                        <bdo data-type="conditional-block">
+                          <bdo
                             className="block-component"
                             data-record-question-key="user_u13_option"
                             data-type="statement"
@@ -4848,16 +4848,16 @@ export default function Terms() {
                                 color: "rgb(89, 89,89)",
                               }}
                             >
-                              <bdt className="statement-end-if-in-editor" />
+                              <bdo className="statement-end-if-in-editor" />
                             </span>
-                          </bdt>
-                        </bdt>
-                      </bdt>
+                          </bdo>
+                        </bdo>
+                      </bdo>
                     </span>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <br />
@@ -4866,67 +4866,67 @@ export default function Terms() {
             <br />
           </div>
           <div style={{ textAlign: "left", lineHeight: 1 }}>
-            <bdt className="block-container if" data-type="if">
-              <bdt className="statement-end-if-in-editor" data-type="close">
+            <bdo className="block-container if" data-type="if">
+              <bdo className="statement-end-if-in-editor" data-type="close">
                 <span style={{ fontSize: 15 }} />
-              </bdt>
-              <bdt
+              </bdo>
+              <bdo
                 className="block-container if"
                 data-type="if"
                 id="7371467a-f2b5-2aff-cd0f-3379e970551e"
               >
-                <bdt data-type="conditional-block">
-                  <bdt
+                <bdo data-type="conditional-block">
+                  <bdo
                     className="block-component"
                     data-record-question-key="privacy_policy_followup"
                     data-type="statement"
                     style={{ fontSize: "14.6667px" }}
                   >
-                    <bdt className="block-component" />
-                  </bdt>
-                </bdt>
-                <bdt
+                    <bdo className="block-component" />
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="923fc4bc-b171-82ba-b6eb-0a13c12d1b6b"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="copyright_agent_option"
                       data-type="statement"
                     />
-                    <bdt
+                    <bdo
                       className="statement-end-if-in-editor"
                       data-type="close"
                     >
                       <span style={{ fontSize: 15 }}>
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
                       </span>
-                    </bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                    </bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="95e88984-ac54-be9d-35de-f10fd010af14"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="no_agent_clause_option"
                       data-type="statement"
                     />
-                  </bdt>
-                  <bdt className="block-component" />
-                </bdt>
-              </bdt>
-            </bdt>
+                  </bdo>
+                  <bdo className="block-component" />
+                </bdo>
+              </bdo>
+            </bdo>
           </div>
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="terms"
               style={{ lineHeight: "1.5" }}
             >
@@ -4950,7 +4950,7 @@ export default function Terms() {
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -4971,28 +4971,28 @@ export default function Terms() {
                 CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR
                 REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE
                 SITE OR DELETE{" "}
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="a6e121c2-36b4-5066-bf9f-a0a33512e768"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="user_account_option"
                       data-type="statement"
                     />
-                  </bdt>
-                </bdt>
-                <bdt
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="a6e121c2-36b4-5066-bf9f-a0a33512e768"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">YOUR</bdt>
-                  </bdt>
-                </bdt>
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">YOUR</bdo>
+                  </bdo>
+                </bdo>
               </span>
               <span
                 style={{
@@ -5004,15 +5004,15 @@ export default function Terms() {
                   msoThemetint: 166,
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="a6e121c2-36b4-5066-bf9f-a0a33512e768"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">&nbsp;</bdt>
-                  </bdt>
-                </bdt>
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">&nbsp;</bdo>
+                  </bdo>
+                </bdo>
               </span>
               <span
                 style={{
@@ -5022,25 +5022,25 @@ export default function Terms() {
                   color: "rgb(89, 89, 89)",
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="a6e121c2-36b4-5066-bf9f-a0a33512e768"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">ACCOUNT AND&nbsp;</bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">ACCOUNT AND&nbsp;</bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="a6e121c2-36b4-5066-bf9f-a0a33512e768"
                 >
-                  <bdt
+                  <bdo
                     className="statement-end-if-in-editor"
                     data-type="close"
                   />
-                </bdt>
+                </bdo>
                 ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT
                 WARNING, IN OUR SOLE DISCRETION.
               </span>
@@ -5052,7 +5052,7 @@ export default function Terms() {
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span style={{ fontSize: 15 }}>
@@ -5084,7 +5084,7 @@ export default function Terms() {
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="modifications"
               style={{ lineHeight: "1.5" }}
             >
@@ -5104,7 +5104,7 @@ export default function Terms() {
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -5132,7 +5132,7 @@ export default function Terms() {
           <div style={{ textAlign: "left", lineHeight: "1.5" }}>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -5167,7 +5167,7 @@ export default function Terms() {
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="law"
               style={{ lineHeight: "1.5" }}
             >
@@ -5192,12 +5192,12 @@ export default function Terms() {
                   msoThemetint: 166,
                 }}
               >
-                <bdt className="block-component" />
+                <bdo className="block-component" />
               </span>
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="body_text"
+              data-custom-classname="body_text"
               style={{ lineHeight: "1.5" }}
             >
               <span
@@ -5210,66 +5210,66 @@ export default function Terms() {
               >
                 These Terms of Use and your use of the Site are governed by and
                 construed in accordance with the laws of{" "}
-                <bdt
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="governing_law"
                       data-type="statement"
-                    ></bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                    ></bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">the State</bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">the State</bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container
                     if"
                   data-type="if"
                   id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">&nbsp;of&nbsp;</bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">&nbsp;of&nbsp;</bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt data-type="body">
-                      <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo data-type="body">
+                      <bdo
                         className="block-container question
                           question-in-editor"
                         data-id="b61250bd-6b61-32ea-a9e7-4a02690297c3"
                         data-type="question"
                       >
                         California
-                      </bdt>
-                    </bdt>
-                  </bdt>
-                </bdt>
-                <bdt
+                      </bdo>
+                    </bdo>
+                  </bdo>
+                </bdo>
+                <bdo
                   className="block-container if"
                   data-type="if"
                   id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                 >
-                  <bdt
+                  <bdo
                     className="statement-end-if-in-editor"
                     data-type="close"
                   />
-                </bdt>
+                </bdo>
               </span>
               <span
                 style={{
@@ -5301,72 +5301,72 @@ export default function Terms() {
                     color: "rgb(89, 89, 89)",
                   }}
                 >
-                  <bdt
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo
                         className="block-component"
                         data-record-question-key="governing_law"
                         data-type="statement"
-                      ></bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                      ></bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                     style={{ fontSize: "14.6667px" }}
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">the State of</bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">the State of</bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                     style={{ fontSize: "14.6667px" }}
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">&nbsp;</bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">&nbsp;</bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                     style={{ fontSize: "14.6667px" }}
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">
-                        <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">
+                        <bdo
                           className="block-container
                             question question-in-editor"
                           data-id="b61250bd-6b61-32ea-a9e7-4a02690297c3"
                           data-type="question"
                         >
                           California
-                        </bdt>
-                      </bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                        </bdo>
+                      </bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                     style={{ fontSize: "14.6667px" }}
                   >
-                    <bdt
+                    <bdo
                       className="statement-end-if-in-editor"
                       data-type="close"
                     />
-                  </bdt>
+                  </bdo>
                   , without regard to its conflict of law principles.
                 </span>
-                <bdt className="block-component" />
+                <bdo className="block-component" />
               </span>
             </div>
           </div>
@@ -5379,7 +5379,7 @@ export default function Terms() {
             </div>
             <div
               className="MsoNormal"
-              data-custom-class="heading_1"
+              data-custom-classname="heading_1"
               id="disputes"
               style={{ lineHeight: "1.5" }}
             >
@@ -5400,14 +5400,14 @@ export default function Terms() {
               <br />
             </div>
             <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt className="block-component" />
-                  <bdt className="block-component" />
-                  <bdt data-type="body">
+              <bdo className="block-container if" data-type="if">
+                <bdo data-type="conditional-block">
+                  <bdo className="block-component" />
+                  <bdo className="block-component" />
+                  <bdo data-type="body">
                     <div
                       className="MsoNormal"
-                      data-custom-class="body_text"
+                      data-custom-classname="body_text"
                       style={{ lineHeight: "1.5" }}
                     >
                       <span
@@ -5421,19 +5421,19 @@ export default function Terms() {
                         Any legal action of whatever nature brought by either
                         you or us (collectively, the “Parties” and individually,
                         a “Party”) shall be commenced or prosecuted in the
-                        <bdt className="block-component" /> state and federal
+                        <bdo className="block-component" /> state and federal
                         courts
-                        <bdt className="statement-end-if-in-editor" />
+                        <bdo className="statement-end-if-in-editor" />
                         located in
-                        <bdt className="block-component" />
-                        <bdt
+                        <bdo className="block-component" />
+                        <bdo
                           className="block-container question
                             question-in-editor"
                           data-id="40eea829-de8e-e8ed-6f5d-f33e5a67f160"
                           data-type="question"
                         >
                           Los Angeles
-                        </bdt>
+                        </bdo>
                         ,
                         <span
                           style={{
@@ -5443,17 +5443,17 @@ export default function Terms() {
                             color: "rgb(89, 89, 89)",
                           }}
                         >
-                          <bdt className="statement-end-if-in-editor" />
+                          <bdo className="statement-end-if-in-editor" />
                         </span>
-                        <bdt className="block-component" />
-                        <bdt
+                        <bdo className="block-component" />
+                        <bdo
                           className="block-container question
                             question-in-editor"
                           data-id="bfee4bc3-e41e-d0fb-b2a6-eeba63bf170f"
                           data-type="question"
                         >
                           California
-                        </bdt>
+                        </bdo>
                         <span
                           style={{
                             fontSize: 15,
@@ -5462,7 +5462,7 @@ export default function Terms() {
                             color: "rgb(89, 89, 89)",
                           }}
                         >
-                          <bdt className="statement-end-if-in-editor" />
+                          <bdo className="statement-end-if-in-editor" />
                         </span>
                         , and the Parties hereby consent to, and waive all
                         defenses of lack of personal jurisdiction and forum non
@@ -5476,9 +5476,9 @@ export default function Terms() {
                             color: "rgb(89, 89, 89)",
                           }}
                         >
-                          <bdt className="block-component" /> state and federal
+                          <bdo className="block-component" /> state and federal
                           courts
-                          <bdt className="statement-end-if-in-editor" />
+                          <bdo className="statement-end-if-in-editor" />
                         </span>
                         . Application of the United Nations Convention on
                         Contracts for the International Sale of Goods and the
@@ -5506,32 +5506,32 @@ export default function Terms() {
                         }}
                       >
                         of Use.{" "}
-                        <bdt
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt
+                          <bdo data-type="conditional-block">
+                            <bdo
                               className="block-component"
                               data-record-question-key="ligitation_limit_years_option"
                               data-type="statement"
                             />
-                          </bdt>
-                        </bdt>
-                        <bdt
+                          </bdo>
+                        </bdo>
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">
                               In no event shall any claim, action, or proceeding
                               brought by either Party related in any way to the
                               Site be
-                            </bdt>
-                          </bdt>
-                        </bdt>
+                            </bdo>
+                          </bdo>
+                        </bdo>
                       </span>
                       <span
                         style={{
@@ -5543,15 +5543,15 @@ export default function Terms() {
                           msoThemetint: 166,
                         }}
                       >
-                        <bdt
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">&nbsp;</bdt>
-                          </bdt>
-                        </bdt>
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">&nbsp;</bdo>
+                          </bdo>
+                        </bdo>
                       </span>
                       <span
                         style={{
@@ -5561,70 +5561,70 @@ export default function Terms() {
                           color: "rgb(89, 89, 89)",
                         }}
                       >
-                        <bdt
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">
                               commenced more than
-                              <bdt
+                              <bdo
                                 className="block-container question
                                   question-in-editor"
                                 data-id="0cfbb38b-c99c-93e8-65cc-6964601e7511"
                                 data-type="question"
                               >
                                 one (1)
-                              </bdt>{" "}
+                              </bdo>{" "}
                               years after
-                            </bdt>
-                          </bdt>
-                        </bdt>
-                        <bdt
+                            </bdo>
+                          </bdo>
+                        </bdo>
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">&nbsp;</bdt>
-                          </bdt>
-                        </bdt>
-                        <bdt
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">&nbsp;</bdo>
+                          </bdo>
+                        </bdo>
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">
                               the cause of action arose.
-                            </bdt>
-                          </bdt>
-                        </bdt>
-                        <bdt
+                            </bdo>
+                          </bdo>
+                        </bdo>
+                        <bdo
                           className="block-container if"
                           data-type="if"
                           id="5f4c4c12-ace4-b62d-57f7-b56b2a1118e7"
                         >
-                          <bdt
+                          <bdo
                             className="statement-end-if-in-editor"
                             data-type="close"
                           >
-                            <bdt className="block-component" />
-                          </bdt>
-                        </bdt>
+                            <bdo className="block-component" />
+                          </bdo>
+                        </bdo>
                       </span>
                     </div>
-                  </bdt>
-                </bdt>
-              </bdt>
+                  </bdo>
+                </bdo>
+              </bdo>
             </div>
             <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-              <bdt className="block-container if" data-type="if">
-                <bdt data-type="conditional-block">
-                  <bdt data-type="body">
+              <bdo className="block-container if" data-type="if">
+                <bdo data-type="conditional-block">
+                  <bdo data-type="body">
                     <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-                      <bdt className="else-block" />
+                      <bdo className="else-block" />
                     </div>
                     <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
                       <br />
@@ -5634,7 +5634,7 @@ export default function Terms() {
                     </div>
                     <div
                       className="MsoNormal"
-                      data-custom-class="heading_1"
+                      data-custom-classname="heading_1"
                       id="corrections"
                       style={{ lineHeight: "1.5" }}
                     >
@@ -5647,7 +5647,7 @@ export default function Terms() {
                     </div>
                     <div
                       className="MsoNormal"
-                      data-custom-class="body_text"
+                      data-custom-classname="body_text"
                       style={{ lineHeight: "1.5" }}
                     >
                       <span style={{ fontSize: 15 }}>
@@ -5668,7 +5668,7 @@ export default function Terms() {
                     </div>
                     <div
                       className="MsoNormal"
-                      data-custom-class="heading_1"
+                      data-custom-classname="heading_1"
                       id="disclaimer"
                       style={{ lineHeight: "1.5" }}
                     >
@@ -5681,7 +5681,7 @@ export default function Terms() {
                     </div>
                     <div
                       className="MsoNormal"
-                      data-custom-class="body_text"
+                      data-custom-classname="body_text"
                       style={{ lineHeight: "1.5" }}
                     >
                       <span style={{ fontSize: 15 }}>
@@ -5723,9 +5723,9 @@ export default function Terms() {
                         JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
                       </span>
                     </div>
-                  </bdt>
-                </bdt>
-              </bdt>
+                  </bdo>
+                </bdo>
+              </bdo>
             </div>
           </div>
           <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -5736,7 +5736,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="liability"
             style={{ lineHeight: "1.5" }}
           >
@@ -5749,7 +5749,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -5776,28 +5776,28 @@ export default function Terms() {
                     color: "rgb(89, 89,89)",
                   }}
                 >
-                  <bdt
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt
+                    <bdo data-type="conditional-block">
+                      <bdo
                         className="block-component"
                         data-record-question-key="limitations_liability_option"
                         data-type="statement"
-                      ></bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                      ></bdo>
+                    </bdo>
+                  </bdo>
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">NOTWITHSTANDING</bdt>
-                    </bdt>
-                  </bdt>
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">NOTWITHSTANDING</bdo>
+                    </bdo>
+                  </bdo>
                 </span>
                 <span
                   style={{
@@ -5809,15 +5809,15 @@ export default function Terms() {
                     msoThemetint: 166,
                   }}
                 >
-                  <bdt
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">&nbsp;</bdt>
-                    </bdt>
-                  </bdt>
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">&nbsp;</bdo>
+                    </bdo>
+                  </bdo>
                 </span>
                 <span
                   style={{
@@ -5827,13 +5827,13 @@ export default function Terms() {
                     color: "rgb(89, 89,89)",
                   }}
                 >
-                  <bdt
+                  <bdo
                     className="block-container if"
                     data-type="if"
                     id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt data-type="body">
+                    <bdo data-type="conditional-block">
+                      <bdo data-type="body">
                         ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY
                         TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE
                         FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO{" "}
@@ -5845,49 +5845,49 @@ export default function Terms() {
                             color: "rgb(89,89, 89)",
                           }}
                         >
-                          <bdt
+                          <bdo
                             className="block-container if"
                             data-type="if"
                             id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                           >
-                            <bdt data-type="conditional-block">
-                              <bdt data-type="body">
-                                <bdt
+                            <bdo data-type="conditional-block">
+                              <bdo data-type="body">
+                                <bdo
                                   className="block-container
                                               if"
                                   data-type="if"
                                   id="73189d93-ed3a-d597-3efc-15956fa8e04e"
                                 >
-                                  <bdt data-type="conditional-block">
-                                    <bdt
+                                  <bdo data-type="conditional-block">
+                                    <bdo
                                       className="block-component"
                                       data-record-question-key="limitations_liability_option"
                                       data-type="statement"
                                     />
-                                  </bdt>
-                                </bdt>
-                              </bdt>
-                            </bdt>
-                          </bdt>
+                                  </bdo>
+                                </bdo>
+                              </bdo>
+                            </bdo>
+                          </bdo>
                         </span>
-                        <bdt data-type="if">
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">
-                              <bdt data-type="if">
-                                <bdt data-type="conditional-block">
-                                  <bdt data-type="body">THE AMOUNT PAID,</bdt>
-                                </bdt>
-                              </bdt>
-                            </bdt>
-                          </bdt>
-                        </bdt>
-                        <bdt data-type="if">
+                        <bdo data-type="if">
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">
+                              <bdo data-type="if">
+                                <bdo data-type="conditional-block">
+                                  <bdo data-type="body">THE AMOUNT PAID,</bdo>
+                                </bdo>
+                              </bdo>
+                            </bdo>
+                          </bdo>
+                        </bdo>
+                        <bdo data-type="if">
                           &nbsp;
-                          <bdt data-type="conditional-block">
-                            <bdt data-type="body">
-                              <bdt data-type="if">
-                                <bdt data-type="conditional-block">
-                                  <bdt data-type="body">
+                          <bdo data-type="conditional-block">
+                            <bdo data-type="body">
+                              <bdo data-type="if">
+                                <bdo data-type="conditional-block">
+                                  <bdo data-type="body">
                                     IF ANY, BY YOU TO US
                                     <span
                                       style={{
@@ -5897,45 +5897,45 @@ export default function Terms() {
                                         color: "rgb(89, 89,89)",
                                       }}
                                     >
-                                      <bdt
+                                      <bdo
                                         className="block-container
                                                     if"
                                         data-type="if"
                                         id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                                       >
-                                        <bdt data-type="conditional-block">
-                                          <bdt data-type="body">
-                                            <bdt
+                                        <bdo data-type="conditional-block">
+                                          <bdo data-type="body">
+                                            <bdo
                                               className="block-container
                                                           if"
                                               data-type="if"
                                               id="73189d93-ed3a-d597-3efc-15956fa8e04e"
                                             >
-                                              <bdt data-type="conditional-block">
-                                                <bdt data-type="body">
-                                                  <bdt
+                                              <bdo data-type="conditional-block">
+                                                <bdo data-type="body">
+                                                  <bdo
                                                     className="block-container
                                                                 if"
                                                     data-type="if"
                                                     id="19e172cb-4ccf-1904-7c06-4251800ba748"
                                                   >
-                                                    <bdt data-type="conditional-block">
-                                                      <bdt
+                                                    <bdo data-type="conditional-block">
+                                                      <bdo
                                                         className="block-component"
                                                         data-record-question-key="limilation_liability_time_option"
                                                         data-type="statement"
                                                       />
-                                                    </bdt>
-                                                  </bdt>
-                                                </bdt>
-                                              </bdt>
-                                            </bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
+                                                    </bdo>
+                                                  </bdo>
+                                                </bdo>
+                                              </bdo>
+                                            </bdo>
+                                          </bdo>
+                                        </bdo>
+                                      </bdo>
                                     </span>
                                     DURING THE{" "}
-                                    <bdt className="question">SIX (6)</bdt>
+                                    <bdo className="question">SIX (6)</bdo>
                                     MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION
                                     ARISING
                                     <span
@@ -5946,64 +5946,64 @@ export default function Terms() {
                                         color: "rgb(89, 89,89)",
                                       }}
                                     >
-                                      <bdt
+                                      <bdo
                                         className="block-container
                                                     if"
                                         data-type="if"
                                         id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                                       >
-                                        <bdt data-type="conditional-block">
-                                          <bdt data-type="body">
-                                            <bdt
+                                        <bdo data-type="conditional-block">
+                                          <bdo data-type="body">
+                                            <bdo
                                               className="block-container
                                                           if"
                                               data-type="if"
                                               id="73189d93-ed3a-d597-3efc-15956fa8e04e"
                                             >
-                                              <bdt data-type="conditional-block">
-                                                <bdt data-type="body">
-                                                  <bdt
+                                              <bdo data-type="conditional-block">
+                                                <bdo data-type="body">
+                                                  <bdo
                                                     className="block-container
                                                                 if"
                                                     data-type="if"
                                                     id="19e172cb-4ccf-1904-7c06-4251800ba748"
                                                   >
-                                                    <bdt
+                                                    <bdo
                                                       className="statement-end-if-in-editor"
                                                       data-type="close"
                                                     />
-                                                  </bdt>
-                                                </bdt>
-                                              </bdt>
-                                            </bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
-                                      <bdt
+                                                  </bdo>
+                                                </bdo>
+                                              </bdo>
+                                            </bdo>
+                                          </bdo>
+                                        </bdo>
+                                      </bdo>
+                                      <bdo
                                         className="block-container
                                                     if"
                                         data-type="if"
                                         id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                                       >
-                                        <bdt data-type="conditional-block">
-                                          <bdt data-type="body">
-                                            <bdt
+                                        <bdo data-type="conditional-block">
+                                          <bdo data-type="body">
+                                            <bdo
                                               className="block-container
                                                           if"
                                               data-type="if"
                                               id="73189d93-ed3a-d597-3efc-15956fa8e04e"
                                             >
-                                              <bdt data-type="conditional-block">
-                                                <bdt
+                                              <bdo data-type="conditional-block">
+                                                <bdo
                                                   className="block-component"
                                                   data-record-question-key="limitations_liability_option"
                                                   data-type="statement"
                                                 />
-                                              </bdt>
-                                            </bdt>
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
+                                              </bdo>
+                                            </bdo>
+                                          </bdo>
+                                        </bdo>
+                                      </bdo>
                                     </span>
                                     .
                                     <span
@@ -6014,14 +6014,14 @@ export default function Terms() {
                                         color: "rgb(89, 89,89)",
                                       }}
                                     >
-                                      <bdt
+                                      <bdo
                                         className="block-container
                                                     if"
                                         data-type="if"
                                         id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                                       >
-                                        <bdt data-type="conditional-block">
-                                          <bdt data-type="body">
+                                        <bdo data-type="conditional-block">
+                                          <bdo data-type="body">
                                             CERTAIN US STATE LAWS AND
                                             INTERNATIONAL LAWS DO NOT ALLOW
                                             LIMITATIONS ON IMPLIED WARRANTIES OR
@@ -6031,30 +6031,30 @@ export default function Terms() {
                                             DISCLAIMERS OR LIMITATIONS MAY NOT
                                             APPLY TO YOU, AND YOU MAY HAVE
                                             ADDITIONAL RIGHTS.
-                                          </bdt>
-                                        </bdt>
-                                      </bdt>
-                                      <bdt
+                                          </bdo>
+                                        </bdo>
+                                      </bdo>
+                                      <bdo
                                         className="block-container
                                                     if"
                                         data-type="if"
                                         id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
                                       >
-                                        <bdt
+                                        <bdo
                                           className="statement-end-if-in-editor"
                                           data-type="close"
                                         />
-                                      </bdt>
+                                      </bdo>
                                     </span>
-                                  </bdt>
-                                </bdt>
-                              </bdt>
-                            </bdt>
-                          </bdt>
-                        </bdt>
-                      </bdt>
-                    </bdt>
-                  </bdt>
+                                  </bdo>
+                                </bdo>
+                              </bdo>
+                            </bdo>
+                          </bdo>
+                        </bdo>
+                      </bdo>
+                    </bdo>
+                  </bdo>
                 </span>
               </span>
             </span>
@@ -6067,7 +6067,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="indemnification"
             style={{ lineHeight: "1.5" }}
           >
@@ -6080,7 +6080,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6098,20 +6098,20 @@ export default function Terms() {
                   color: "rgb(89, 89, 89)",
                 }}
               >
-                <bdt
+                <bdo
                   className="block-container
                               if"
                   data-type="if"
                   id="475fffa5-05ca-def8-ac88-f426b238903c"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <bdo data-type="conditional-block">
+                    <bdo
                       className="block-component"
                       data-record-question-key="user_post_content_option"
                       data-type="statement"
                     />
-                  </bdt>
-                </bdt>
+                  </bdo>
+                </bdo>
               </span>
               (1) use of the Site; (2) breach of these Terms of Use; (3) any
               breach of your representations and warranties set forth in these
@@ -6135,7 +6135,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="userdata"
             style={{ lineHeight: "1.5" }}
           >
@@ -6148,7 +6148,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6171,7 +6171,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="electronic"
             style={{ lineHeight: "1.5" }}
           >
@@ -6186,7 +6186,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6223,11 +6223,11 @@ export default function Terms() {
             <br />
           </div>
           <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-            <bdt className="block-component" />
+            <bdo className="block-component" />
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="california"
             style={{ lineHeight: "1.5" }}
           >
@@ -6240,7 +6240,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6260,12 +6260,12 @@ export default function Terms() {
           </div>
           <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <bdt className="statement-end-if-in-editor" />
+              <bdo className="statement-end-if-in-editor" />
             </span>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="misc"
             style={{ lineHeight: "1.5" }}
           >
@@ -6278,7 +6278,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6303,7 +6303,7 @@ export default function Terms() {
               and all defenses you may have based on the electronic form of
               these Terms of Use and the lack of signing by the parties hereto
               to execute these Terms of Use.
-              <bdt className="block-component" />
+              <bdo className="block-component" />
             </span>
           </div>
           <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -6314,7 +6314,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="heading_1"
+            data-custom-classname="heading_1"
             id="contact"
             style={{ lineHeight: "1.5" }}
           >
@@ -6327,7 +6327,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6351,7 +6351,7 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6363,15 +6363,15 @@ export default function Terms() {
                   color: "rgb(89, 89, 89)",
                 }}
               >
-                <bdt className="question">
-                  <strong>Wellspring, Inc.</strong>
-                </bdt>
+                <bdo className="question">
+                  <strong>Attribe, Inc.</strong>
+                </bdo>
               </span>
             </span>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <span style={{ fontSize: 15 }}>
@@ -6385,11 +6385,11 @@ export default function Terms() {
               >
                 <strong>
                   <span style={{ color: "rgb(89, 89, 89)" }}>
-                    <bdt className="question">3802 The Strand</bdt>
+                    <bdo className="question">3802 The Strand</bdo>
                     <strong>
                       <span style={{ color: "rgb(89, 89, 89)" }}>
                         <span style={{ fontSize: 15 }}>
-                          <bdt className="block-component" />
+                          <bdo className="block-component" />
                         </span>
                       </span>
                     </strong>
@@ -6400,37 +6400,37 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <strong>
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 <span style={{ fontSize: 15 }}>
-                  <bdt className="question">Manhattan Beach</bdt>
+                  <bdo className="question">Manhattan Beach</bdo>
                   <strong>
                     <span style={{ color: "rgb(89, 89, 89)" }}>
                       <span style={{ fontSize: 15 }}>
-                        <bdt className="block-component" />
-                        <bdt className="block-component" />,
-                        <bdt className="question">CA</bdt>
-                        <bdt className="statement-end-if-in-editor" />
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
+                        <bdo className="block-component" />,
+                        <bdo className="question">CA</bdo>
+                        <bdo className="statement-end-if-in-editor" />
+                        <bdo className="block-component" />
                       </span>
                     </span>
                   </strong>
                   <span style={{ fontSize: 15 }}>
                     <strong>
                       <span style={{ color: "rgb(89, 89, 89)" }}>
-                        <bdt className="block-component" />
-                        <bdt className="question">90266</bdt>
-                        <bdt className="statement-end-if-in-editor" />
+                        <bdo className="block-component" />
+                        <bdo className="question">90266</bdo>
+                        <bdo className="statement-end-if-in-editor" />
                       </span>
                     </strong>
                     <strong>
                       <span style={{ color: "rgb(89, 89, 89)" }}>
-                        <bdt className="block-component" />
-                        <bdt className="block-component" />
-                        <bdt className="block-component" />
+                        <bdo className="block-component" />
+                        <bdo className="block-component" />
+                        <bdo className="block-component" />
                       </span>
                     </strong>
                   </span>
@@ -6440,40 +6440,40 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
-            <bdt className="question">
+            <bdo className="question">
               <strong>
                 <span style={{ fontSize: 15 }}>United States</span>
               </strong>
-            </bdt>
+            </bdo>
             <span style={{ fontSize: 15 }}>
               <span style={{ fontSize: 15 }}>
                 <strong>
                   <span style={{ color: "rgb(89, 89,89)" }}>
-                    <bdt className="statement-end-if-in-editor">
+                    <bdo className="statement-end-if-in-editor">
                       <span style={{ color: "rgb(89, 89, 89)" }}>
                         <strong>
                           <span style={{ fontSize: 15 }}>
-                            <bdt className="statement-end-if-in-editor">
+                            <bdo className="statement-end-if-in-editor">
                               <span style={{ color: "rgb(89, 89,89)" }}>
                                 <strong>
                                   <span style={{ fontSize: 15 }}>
-                                    <bdt className="statement-end-if-in-editor">
-                                      <bdt className="block-component" />
-                                    </bdt>
+                                    <bdo className="statement-end-if-in-editor">
+                                      <bdo className="block-component" />
+                                    </bdo>
                                   </span>
                                 </strong>
                               </span>
-                            </bdt>
-                            <bdt className="statement-end-if-in-editor">
+                            </bdo>
+                            <bdo className="statement-end-if-in-editor">
                               <strong />
-                            </bdt>
+                            </bdo>
                           </span>
                         </strong>
                       </span>
-                    </bdt>
+                    </bdo>
                   </span>
                 </strong>
               </span>
@@ -6481,38 +6481,38 @@ export default function Terms() {
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <strong>
               <span style={{ fontSize: 15 }}>
-                Phone: <bdt className="question">6508234349</bdt>
+                Phone: <bdo className="question">6508234349</bdo>
               </span>
             </strong>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
             <strong>
               <span style={{ fontSize: 15 }}>
-                <bdt className="block-component" />
+                <bdo className="block-component" />
               </span>
             </strong>
           </div>
           <div
             className="MsoNormal"
-            data-custom-class="body_text"
+            data-custom-classname="body_text"
             style={{ lineHeight: "1.5" }}
           >
-            <bdt className="question">
+            <bdo className="question">
               <strong>
                 <span style={{ fontSize: 15 }}>
                   ryan@wellspringattribution.com
                 </span>
               </strong>
-            </bdt>
+            </bdo>
           </div>
         </>
       </div>
