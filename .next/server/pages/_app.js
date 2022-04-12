@@ -196,13 +196,13 @@ function Header() {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "flex items-center justify-between w-full md:w-auto",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    className: "logo__text",
+                                    className: "logo__text ",
                                     href: "/",
                                     style: {
                                         color: 'white',
                                         fontSize: '3rem'
                                     },
-                                    children: "attribe"
+                                    children: "wellspring"
                                 })
                             })
                         })

@@ -579,7 +579,7 @@ export default function Terms() {
                   data-id="9d459c4e-c548-e5cb-7729-a11854 8965d2"
                   data-type="question"
                 >
-                  Attribe, Inc.
+                  Wellspring, Inc.
                 </bdt>
               </span>
               <span
@@ -6364,7 +6364,7 @@ export default function Terms() {
                 }}
               >
                 <bdt className="question">
-                  <strong>Attribe, Inc.</strong>
+                  <strong>Wellspring, Inc.</strong>
                 </bdt>
               </span>
             </span>

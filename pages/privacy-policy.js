@@ -33,7 +33,7 @@ export default function Privacy() {
           <span style={{ color: "rgb(89, 89, 89)", "font-size": "15px" }}>
             <span data-custom-classname="body_text">
               This privacy notice for{" "}
-              <bdo className="question">Attribe, Inc.</bdo>
+              <bdo className="question">Wellspring, Inc.</bdo>
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 <span data-custom-classname="body_text">
                   <bdo className="block-component" />
@@ -9109,7 +9109,7 @@ export default function Privacy() {
                                                           >
                                                             <span data-custom-classname="body_text">
                                                               <bdo className="question">
-                                                                Attribe, Inc.
+                                                                wellspring, Inc.
                                                               </bdo>
                                                             </span>
                                                             <span data-custom-classname="body_text">
@@ -9137,7 +9137,7 @@ export default function Privacy() {
                                                                 >
                                                                   <span data-custom-classname="body_text">
                                                                     <bdo className="question">
-                                                                      Attribe,
+                                                                      wellspring,
                                                                       Inc.
                                                                     </bdo>
                                                                   </span>
@@ -11906,7 +11906,7 @@ export default function Privacy() {
                                                                   >
                                                                     <span data-custom-classname="body_text">
                                                                       <bdo className="question">
-                                                                        Attribe,
+                                                                        wellspring,
                                                                         Inc.
                                                                       </bdo>
                                                                     </span>
