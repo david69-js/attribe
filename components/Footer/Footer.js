@@ -90,7 +90,7 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <p className="mt-8 text-center text-base text-gray-400">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+        <p className="mt-8 text-center text-base text-gray-400">&copy; 2020 Wellspring, Inc. All rights reserved.</p>
       </div>
     </footer>
   )
