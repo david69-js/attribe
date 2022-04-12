@@ -227,7 +227,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#toc"
+            href="#toc"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">
@@ -262,7 +262,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#personalinfo"
+            href="#personalinfo"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">here</span>
@@ -316,7 +316,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#infouse"
+            href="#infouse"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">here</span>
@@ -344,7 +344,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#whoshare"
+            href="#whoshare"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">here</span>
@@ -376,7 +376,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#infosafe"
+            href="#infosafe"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">here</span>
@@ -403,7 +403,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#privacyrights"
+            href="#privacyrights"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">here</span>
@@ -457,7 +457,7 @@ export default function Privacy() {
           </span>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#toc"
+            href="#toc"
           >
             <span style={{ "font-size": "15px" }}>
               <span data-custom-classname="body_text">here</span>
@@ -493,7 +493,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#infocollect"
+              href="#infocollect"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 1. WHAT INFORMATION DO WE COLLECT?
@@ -505,7 +505,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#infouse"
+              href="#infouse"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 2. HOW DO WE PROCESS YOUR INFORMATION?
@@ -518,7 +518,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#legalbases"
+              href="#legalbases"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 3.{" "}
@@ -538,7 +538,7 @@ export default function Privacy() {
             <span style={{ color: "rgb(89, 89, 89)" }}>
               <a
                 data-custom-classname="link"
-                href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#whoshare"
+                href="#whoshare"
               >
                 4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
               </a>
@@ -572,7 +572,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#sociallogins"
+              href="#sociallogins"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 <span style={{ color: "rgb(89,                      89, 89)" }}>
@@ -606,7 +606,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#inforetain"
+              href="#inforetain"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 6. HOW LONG DO WE KEEP YOUR INFORMATION?
@@ -631,7 +631,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#infosafe"
+              href="#infosafe"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 7. HOW DO WE KEEP YOUR INFORMATION SAFE?
@@ -655,7 +655,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#infominors"
+              href="#infominors"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 8. DO WE COLLECT INFORMATION FROM MINORS?
@@ -679,7 +679,7 @@ export default function Privacy() {
             <span style={{ color: "rgb(89, 89, 89)" }}>
               <a
                 data-custom-classname="link"
-                href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#privacyrights"
+                href="#privacyrights"
               >
                 9. WHAT ARE YOUR PRIVACY RIGHTS?
               </a>
@@ -690,7 +690,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#DNT"
+              href="#DNT"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 10. CONTROLS FOR DO-NOT-TRACK FEATURES
@@ -702,7 +702,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#caresidents"
+              href="#caresidents"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
@@ -714,7 +714,7 @@ export default function Privacy() {
           <span style={{ "font-size": "15px" }}>
             <a
               data-custom-classname="link"
-              href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#policyupdates"
+              href="#policyupdates"
             >
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 12. DO WE MAKE UPDATES TO THIS NOTICE?
@@ -725,7 +725,7 @@ export default function Privacy() {
         <div style={{ "line-height": "1.5" }}>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#contact"
+            href="#contact"
           >
             <span style={{ color: "rgb(89, 89, 89)", "font-size": "15px" }}>
               13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
@@ -735,7 +735,7 @@ export default function Privacy() {
         <div style={{ "line-height": "1.5" }}>
           <a
             data-custom-classname="link"
-            href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#request"
+            href="#request"
           >
             <span style={{ color: "rgb(89, 89, 89)" }}>
               14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
@@ -1360,7 +1360,7 @@ export default function Privacy() {
                       <span style={{ color: "rgb(89, 89, 89)" }}>
                         <a
                           data-custom-classname="link"
-                          href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#sociallogins"
+                          href="#sociallogins"
                         >
                           HOW DO WE HANDLE YOUR SOCIAL LOGINS?
                         </a>
@@ -2408,7 +2408,7 @@ export default function Privacy() {
                                                   </span>
                                                   <a
                                                     data-custom-classname="link"
-                                                    href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#withdrawconsent"
+                                                    href="#withdrawconsent"
                                                   >
                                                     <span
                                                       style={{
@@ -2677,7 +2677,7 @@ export default function Privacy() {
                                                 </span>
                                                 <a
                                                   data-custom-classname="link"
-                                                  href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#withdrawconsent"
+                                                  href="#withdrawconsent"
                                                 >
                                                   <span data-custom-classname="body_text">
                                                     <span
@@ -4833,7 +4833,7 @@ export default function Privacy() {
                                                         </span>
                                                         <a
                                                           data-custom-classname="link"
-                                                          href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#contact"
+                                                          href="#contact"
                                                         >
                                                           <span
                                                             style={{
@@ -5192,7 +5192,7 @@ export default function Privacy() {
                                                         </span>
                                                         <a
                                                           data-custom-classname="link"
-                                                          href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#contact"
+                                                          href="#contact"
                                                         >
                                                           <span
                                                             style={{
@@ -5333,7 +5333,7 @@ export default function Privacy() {
                                                         </span>
                                                         <a
                                                           data-custom-classname="link"
-                                                          href="https://app.termly.io/document/privacy-policy/8715b21e-7fd7-4062-94dd-73d488c7d33a#contact"
+                                                          href="#contact"
                                                         >
                                                           <span
                                                             style={{

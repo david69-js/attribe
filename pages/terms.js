@@ -97,7 +97,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#agreement"
+          href="#agreement"
         >
           <span style={{ "font-size": "15px" }}>
             <span data-custom-classname="body_text">1. AGREEMENT TO TERMS</span>
@@ -114,7 +114,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#ip"
+          href="#ip"
         >
           <span data-custom-classname="body_text">
             2. INTELLECTUAL PROPERTY RIGHTS
@@ -131,7 +131,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#userreps"
+          href="#userreps"
         >
           <span data-custom-classname="body_text">3. USER REPRESENTATIONS</span>
         </a>
@@ -149,7 +149,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#userreg"
+          href="#userreg"
         >
           <span data-custom-classname="body_text">4. USER REGISTRATION</span>
         </a>
@@ -167,7 +167,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#payment"
+          href="#payment"
         >
           <span data-custom-classname="body_text">5. FEES AND PAYMENT</span>
         </a>
@@ -185,7 +185,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#freetrial"
+          href="#freetrial"
         >
           <span data-custom-classname="body_text">6. FREE TRIAL</span>
         </a>
@@ -203,7 +203,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#cancel"
+          href="#cancel"
         >
           <span data-custom-classname="body_text">7. CANCELLATION</span>
         </a>
@@ -230,7 +230,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#prohibited"
+          href="#prohibited"
         >
           <span data-custom-classname="body_text">8. PROHIBITED ACTIVITIES</span>
         </a>
@@ -245,7 +245,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#ugc"
+          href="#ugc"
         >
           <span data-custom-classname="body_text">
             9. USER GENERATED CONTRIBUTIONS
@@ -262,7 +262,7 @@ export default function Terms() {
       >
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#license"
+          href="#license"
         >
           <span data-custom-classname="body_text">10. CONTRIBUTION LICENSE</span>
         </a>
@@ -297,7 +297,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#socialmedia"
+          href="#socialmedia"
         >
           <span data-custom-classname="body_text">11. SOCIAL MEDIA</span>
         </a>
@@ -308,7 +308,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#submissions"
+          href="#submissions"
         >
           <span data-custom-classname="body_text">12. SUBMISSIONS</span>
         </a>
@@ -319,7 +319,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#thirdparty"
+          href="#thirdparty"
         >
           <span data-custom-classname="body_text">
             13. THIRD-PARTY WEBSITES AND CONTENT
@@ -340,7 +340,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#usrights"
+          href="#usrights"
         >
           <span data-custom-classname="body_text">14. U.S. GOVERNMENT RIGHTS</span>
         </a>
@@ -351,7 +351,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#sitemanage"
+          href="#sitemanage"
         >
           <span data-custom-classname="body_text">15. SITE MANAGEMENT</span>
         </a>
@@ -362,7 +362,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#privacypolicy1"
+          href="#privacypolicy1"
         >
           <span data-custom-classname="body_text">16. PRIVACY POLICY</span>
         </a>
@@ -390,7 +390,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#terms"
+          href="#terms"
         >
           <span data-custom-classname="body_text">17. TERM AND TERMINATION</span>
         </a>
@@ -398,7 +398,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#modifications"
+          href="#modifications"
         >
           <span data-custom-classname="body_text">
             18. MODIFICATIONS AND INTERRUPTIONS
@@ -408,7 +408,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#law"
+          href="#law"
         >
           <span data-custom-classname="body_text">19. GOVERNING LAW</span>
         </a>
@@ -416,7 +416,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#disputes"
+          href="#disputes"
         >
           <span data-custom-classname="body_text">20. DISPUTE RESOLUTION</span>
         </a>
@@ -424,7 +424,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#corrections"
+          href="#corrections"
         >
           <span data-custom-classname="body_text">21. CORRECTIONS</span>
         </a>
@@ -432,7 +432,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#disclaimer"
+          href="#disclaimer"
         >
           <span data-custom-classname="body_text">22. DISCLAIMER</span>
         </a>
@@ -440,7 +440,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#liability"
+          href="#liability"
         >
           <span data-custom-classname="body_text">
             23. LIMITATIONS OF LIABILITY
@@ -450,7 +450,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#indemnification"
+          href="#indemnification"
         >
           <span data-custom-classname="body_text">24. INDEMNIFICATION</span>
         </a>
@@ -458,7 +458,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#userdata"
+          href="#userdata"
         >
           <span data-custom-classname="body_text">25. USER DATA</span>
         </a>
@@ -466,7 +466,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#electronic"
+          href="#electronic"
         >
           <span data-custom-classname="body_text">
             26. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
@@ -479,7 +479,7 @@ export default function Terms() {
         </bdo>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#california"
+          href="#california"
         >
           <span data-custom-classname="body_text">
             27. CALIFORNIA USERS AND RESIDENTS
@@ -492,7 +492,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#misc"
+          href="#misc"
         >
           <span data-custom-classname="body_text">28. MISCELLANEOUS</span>
         </a>
@@ -500,7 +500,7 @@ export default function Terms() {
       <div style={{ "line-height": "1.5" }}>
         <a
           data-custom-classname="link"
-          href="https://app.termly.io/document/terms-of-use-for-saas/093c7d69-2045-4846-8ff1-d7a2e4051239#contact"
+          href="#contact"
         >
           <span data-custom-classname="body_text">29. CONTACT US</span>
         </a>
