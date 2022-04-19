@@ -34,7 +34,7 @@ export default function Home() {
     formData.append("g", "VaQchW");
     formData.append(
       "$fields",
-      "$source,$email,$consent_method,$consent_form_id,$consent_form_version"
+      "$source,$email,$consent_method,$consent_form_id"
     );
     formData.append("$list_fields", "");
     formData.append("$source", "Wellspring");
