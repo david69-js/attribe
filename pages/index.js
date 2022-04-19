@@ -53,8 +53,6 @@ export default function Home() {
       });
   };
 
-  console.log($emailInput);
-
   return (
     <div className="relative overflow-hidden">
       <main>
