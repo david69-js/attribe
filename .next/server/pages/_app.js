@@ -115,24 +115,6 @@ function Footer() {
                         }, item.name)
                     )
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "mt-8 flex justify-center space-x-6",
-                    children: navigation.social.map((item)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                            href: item.href,
-                            className: "text-gray-400 hover:text-gray-500",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                    className: "sr-only",
-                                    children: item.name
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(item.icon, {
-                                    className: "h-6 w-6",
-                                    "aria-hidden": "true"
-                                })
-                            ]
-                        }, item.name)
-                    )
-                }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                     className: "mt-8 text-center text-base text-gray-400",
                     children: "\xa9 2020 Wellspring, Inc. All rights reserved."

@@ -15,13 +15,48 @@
   ```
 */
 
-import { ChevronRightIcon } from '@heroicons/react/solid'
+import { ChevronRightIcon } from "@heroicons/react/solid";
+import { useRef, useState } from "react";
 
+export default function Home() {
+  const [subscribed, setSubscribed] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const $emailInput = useRef();
 
+  const submit = (e) => {
+    e.preventDefault();
+    const formData = new URLSearchParams(); // submit the form lie search params using POST
+    formData.append("g", "WcqgBb");
+    formData.append(
+      "$fields",
+      "$source,$email,$consent_method,$consent_form_id,$consent_form_version"
+    );
+    formData.append("$list_fields", "");
+    formData.append("$source", "Wellspring");
+    formData.append("$email", $emailInput.current.value);
+    formData.append("$consent_method", "Klaviyo Form");
+    formData.append("$consent_form_id", "VaQchW");
 
-export default function Example() {
+    fetch(`https://a.klaviyo.com/ajax/subscriptions/subscribe`, {
+      method: "POST",
+      body: formData,
+    })
+      .then(() => {
+        setSubscribed(true);
+      })
+      .catch((error) => {
+        console.log(error);
+        setSubscribed(false);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  };
+
+  console.log($emailInput);
+
   return (
-    <div className="relative overflow-hidden" >
+    <div className="relative overflow-hidden">
       <main>
         <div className="pt-10 hero__background sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
           <div className="mx-auto max-w-7xl lg:px-8">
@@ -33,49 +68,67 @@ export default function Example() {
                     className="inline-flex items-center text-white badge__container rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                   >
                     <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 tracking-wide badge__text1 rounded-full">
-                    Beta Coming Soon:
+                      Beta Coming Soon:
                     </span>
-                    <span className="ml-4 text-sm text-black">Request Access</span>
-                    <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+                    <span className="ml-4 text-sm text-black">
+                      Request Access
+                    </span>
+                    <ChevronRightIcon
+                      className="ml-2 w-5 h-5 text-gray-500"
+                      aria-hidden="true"
+                    />
                   </a>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                     <span className="block">Attribution</span>
                     <span className="block hero__text2">you can trust</span>
                   </h1>
                   <p className="mt-3 text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Increase your marketing signal and spend your budget more efficiently with Wellspring.
+                    Increase your marketing signal and spend your budget more
+                    efficiently with Wellspring.
                   </p>
                   <div className="mt-10 sm:mt-12">
-                    <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
-                      <div className="sm:flex">
-                        <div className="min-w-0 flex-1">
-                          <label htmlFor="email" className="sr-only">
-                            Email address
-                          </label>
-                          <input
-                            id="email"
-                            type="email"
-                            placeholder="Enter your email"
-                            className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
-                          />
-                        </div>
-                        <div className="mt-3 sm:mt-0 sm:ml-3">
-                          <button
-                            type="submit"
-                            className="block w-full py-3 px-4 rounded-md shadow btn__container"
-                          >
-                            Sign Up For Early Access
-                          </button>
-                        </div>
+                    {subscribed ? (
+                      <div className="bg-green-100 border border-green-300 text-green-700 px-4 py-3 rounded-md text-sm font-semibold tracking-wide uppercase tracking-wider">
+                        <span>Thank you for subscribing!</span>
                       </div>
-                      <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                      Sign up for early access. By providing your email, you agree to our {' '}
-                        <a href="/terms" className="font-medium text-white">
-                          terms and service
-                        </a>
-                        .
-                      </p>
-                    </form>
+                    ) : (
+                      <form
+                        onSubmit={submit}
+                        className="sm:max-w-xl sm:mx-auto lg:mx-0"
+                      >
+                        <div className="sm:flex">
+                          <div className="min-w-0 flex-1">
+                            <label htmlFor="email" className="sr-only">
+                              Email address
+                            </label>
+                            <input
+                              className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
+                              type="email"
+                              placeholder="Enter your email"
+                              ref={$emailInput}
+                              required
+                            />
+                          </div>
+                          <div className="mt-3 sm:mt-0 sm:ml-3">
+                            <button
+                              type="submit"
+                              disabled={loading}
+                              className="block w-full py-3 px-4 rounded-md shadow btn__container"
+                            >
+                              Sign Up For Early Access
+                            </button>
+                          </div>
+                        </div>
+                        <p className="mt-3 text-sm text-gray-300 sm:mt-4">
+                          Sign up for early access. By providing your email, you
+                          agree to our{" "}
+                          <a href="/terms" className="font-medium text-white">
+                            terms and service
+                          </a>
+                          .
+                        </p>
+                      </form>
+                    )}
                   </div>
                 </div>
               </div>
@@ -96,5 +149,5 @@ export default function Example() {
         {/* More main page content here... */}
       </main>
     </div>
-  )
-} 
+  );
+}
