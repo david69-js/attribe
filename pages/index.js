@@ -16,26 +16,31 @@
 */
 
 import { ChevronRightIcon } from "@heroicons/react/solid";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const [subscribed, setSubscribed] = useState(false);
   const [loading, setLoading] = useState(false);
-  const $emailInput = useRef();
+  const [email, setEmail] = useState("");
+  
+  const updateInput = (e) => {
+    e.preventDefault();
+    setEmail(e.target.value);
+  }
 
   const submit = (e) => {
     e.preventDefault();
     const formData = new URLSearchParams(); // submit the form lie search params using POST
-    formData.append("g", "WcqgBb");
+    formData.append("g", "VaQchW");
     formData.append(
       "$fields",
       "$source,$email,$consent_method,$consent_form_id,$consent_form_version"
     );
     formData.append("$list_fields", "");
     formData.append("$source", "Wellspring");
-    formData.append("$email", $emailInput.current.value);
+    formData.append("$email", email);
     formData.append("$consent_method", "Klaviyo Form");
-    formData.append("$consent_form_id", "VaQchW");
+    formData.append("$consent_form_id", "WcqgBb");
 
     fetch(`https://a.klaviyo.com/ajax/subscriptions/subscribe`, {
       method: "POST",
@@ -103,7 +108,7 @@ export default function Home() {
                               className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
                               type="email"
                               placeholder="Enter your email"
-                              ref={$emailInput}
+                              onChange={updateInput}
                               required
                             />
                           </div>
