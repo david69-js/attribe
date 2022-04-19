@@ -92,7 +92,7 @@ export default function Home() {
                   <div className="mt-10 sm:mt-12">
                     {subscribed ? (
                       <div className="bg-green-100 border border-green-300 text-green-700 px-4 py-3 rounded-md text-sm font-semibold tracking-wide uppercase tracking-wider">
-                        <span>Thank you for subscribing!</span>
+                        <span>Check your email to confirm your subscription!</span>
                       </div>
                     ) : (
                       <form
