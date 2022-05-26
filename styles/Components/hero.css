@@ -1,20 +1,20 @@
 .hero__background{
-    background-color: #277ECA;
+    background-color: #3F5080;
 }
 
 .hero__text2{
-    color: #76F38D;
+    color: #76b04e !important;
 }
 
 .badge__container{
-    background-color: #76F38D;
+    background-color: #76b04e !important;
 }
 
 .badge__text1{
-    background-color: #277ECA;
+    background-color: #3F5080;
 }
 
 .btn__container{
-    background-color: #76F38D!important;
+    background-color: #76b04e !important;
     color: black;
 }
